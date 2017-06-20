@@ -80,3 +80,45 @@ v = '-'.join(name_list)  # 内部循环每个元素  Alex-Linda-Tom
 name = 'alex'
 name.ljust(20, '*')
 
+m = str.maketrans('aeiou','12345')  # 对应关系
+name = 'aeioudadafjajd'
+name.translate(m)                     # 翻译  12345d1d1fj1jd
+
+content = "AlexandLinda"
+content.partition('and')             # 分割，保留分割元素  ('Alex', 'and', 'Linda')，场景如计算器 1 + 2
+
+content.replace('and', 'loves')     # 'and' 替换为'loves'
+
+name = 'alex'                       # strip() 移除空白：空格、\t \n 和 自定义
+name.strip('x')                      # 'ale'
+
+name.swapcase()                      # 大小写互换 ALEX
+
+name.zfill(10)                       # 000000alex，不足前补0
+
+
+######## 字符串功能总结：
+name = 'alex'
+name.upper()
+name.lower()
+name.split()
+name.find('a')
+name.strip()
+"".join(name)
+"-".join(name)
+name.startswith('a')
+name.endswith('a')
+name.replace('a', 'b')
+
+######### 字符串额外功能
+# name[0]
+# name[0:3]
+# name[0::2]
+# len(name)
+# for循环，循环每个字符
+
+name = '李杰'
+v1 = name.encode(encoding='utf-8')  # 字节类型，用于网络传输和存储
+print(v1)
+v2 = name.encode(encoding='gbk')    # 字节类型，用于网络传输和存储
+print(v2)

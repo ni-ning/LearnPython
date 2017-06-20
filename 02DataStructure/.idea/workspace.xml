@@ -10,8 +10,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/day2$s2.coverage" NAME="s2 Coverage Results" MODIFIED="1497608775834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/s17/day2" />
-    <SUITE FILE_PATH="coverage/day2$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1497598770340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/s17/day2" />
+    <SUITE FILE_PATH="coverage/02DataStructure$s1__1_.coverage" NAME="s1 (1) Coverage Results" MODIFIED="1497851192487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02DataStructure$s2__1_.coverage" NAME="s2 (1) Coverage Results" MODIFIED="1497950627291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day2$s2.coverage" NAME="s2 Coverage Results" MODIFIED="1497608775834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../day2" />
+    <SUITE FILE_PATH="coverage/day2$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1497598770340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../day2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -19,31 +21,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="s2.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/s17/02DataStructure/s2.py">
+      <file leaf-file-name="s2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/s2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="80" selection-end-column="19" />
+            <state relative-caret-position="399">
+              <caret line="122" column="36" lean-forward="false" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s1.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/s17/02DataStructure/s1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1811667513/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="4712" column="36" lean-forward="false" selection-start-line="4712" selection-start-column="30" selection-end-line="4712" selection-end-column="36" />
+            <state relative-caret-position="322">
+              <caret line="4720" column="0" lean-forward="true" selection-start-line="4647" selection-start-column="0" selection-end-line="4720" selection-end-column="0" />
               <folding>
                 <element signature="e#154490#154684#0" expanded="false" />
                 <element signature="e#154766#154901#0" expanded="false" />
@@ -89,17 +81,15 @@
                 <element signature="e#168731#169229#0" expanded="false" />
                 <element signature="e#169308#169426#0" expanded="false" />
                 <element signature="e#169512#169720#0" expanded="false" />
+                <element signature="e#169795#169834#0" expanded="false" />
+                <element signature="e#169914#169954#0" expanded="false" />
+                <element signature="e#170028#170068#0" expanded="false" />
+                <element signature="e#170165#170317#0" expanded="false" />
+                <element signature="e#170401#170449#0" expanded="false" />
+                <element signature="e#170528#170566#0" expanded="false" />
+                <element signature="e#170648#170652#0" expanded="false" />
+                <element signature="e#171107#171671#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log" pinned="false" current-in-tab="false">
-        <entry file="file://E:/s17/02DataStructure/log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -116,9 +106,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/s17/day2/log" />
-        <option value="E:/s17/day2/s1.py" />
-        <option value="E:/s17/day2/s2.py" />
+        <option value="$PROJECT_DIR$/../day2/log" />
+        <option value="$PROJECT_DIR$/../day2/s1.py" />
+        <option value="$PROJECT_DIR$/../day2/s2.py" />
+        <option value="$PROJECT_DIR$/s1.py" />
+        <option value="$PROJECT_DIR$/log" />
+        <option value="$PROJECT_DIR$/s2.py" />
       </list>
     </option>
   </component>
@@ -149,13 +142,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day2" />
+              <option name="myItemId" value="02DataStructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -165,17 +156,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/s17/day2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Python.s2">
+  <component name="RunManager" selected="Python.s2 (1)">
     <configuration default="false" name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,13 +176,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/s17/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../day2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="day2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/s17/day2/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../day2/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -201,13 +194,49 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/s17/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../day2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="day2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/s17/day2/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../day2/s2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="02DataStructure" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="s2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="02DataStructure" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -426,14 +455,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.s1" />
       <item index="1" class="java.lang.String" itemvalue="Python.s2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.s1 (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.s2 (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.s2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.s1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.s2 (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.s1 (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.s2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.s1" />
       </list>
     </recent_temporary>
   </component>
@@ -451,27 +484,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30650684" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15239726" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03180212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +520,84 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/s17/02DataStructure/s2.py">
+    <entry file="file://$PROJECT_DIR$/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1811667513/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89528">
+          <caret line="4712" column="36" lean-forward="false" selection-start-line="4712" selection-start-column="30" selection-end-line="4712" selection-end-column="36" />
+          <folding>
+            <element signature="e#154490#154684#0" expanded="false" />
+            <element signature="e#154766#154901#0" expanded="false" />
+            <element signature="e#155003#155223#0" expanded="false" />
+            <element signature="e#155329#155600#0" expanded="false" />
+            <element signature="e#155715#156256#0" expanded="false" />
+            <element signature="e#156368#156718#0" expanded="false" />
+            <element signature="e#156813#157045#0" expanded="false" />
+            <element signature="e#157150#157476#0" expanded="false" />
+            <element signature="e#157560#157787#0" expanded="false" />
+            <element signature="e#157880#158100#0" expanded="false" />
+            <element signature="e#158206#158367#0" expanded="false" />
+            <element signature="e#158448#158648#0" expanded="false" />
+            <element signature="e#158729#158927#0" expanded="false" />
+            <element signature="e#159010#159173#0" expanded="false" />
+            <element signature="e#159254#159448#0" expanded="false" />
+            <element signature="e#159534#159814#0" expanded="false" />
+            <element signature="e#159895#160104#0" expanded="false" />
+            <element signature="e#160187#160350#0" expanded="false" />
+            <element signature="e#160435#160630#0" expanded="false" />
+            <element signature="e#160711#160909#0" expanded="false" />
+            <element signature="e#160990#161315#0" expanded="false" />
+            <element signature="e#161396#161605#0" expanded="false" />
+            <element signature="e#161693#161896#0" expanded="false" />
+            <element signature="e#161997#162231#0" expanded="false" />
+            <element signature="e#162310#162439#0" expanded="false" />
+            <element signature="e#162531#162753#0" expanded="false" />
+            <element signature="e#162830#163464#0" expanded="false" />
+            <element signature="e#163552#163834#0" expanded="false" />
+            <element signature="e#163937#164210#0" expanded="false" />
+            <element signature="e#164316#164644#0" expanded="false" />
+            <element signature="e#164751#164914#0" expanded="false" />
+            <element signature="e#165015#165242#0" expanded="false" />
+            <element signature="e#165331#165640#0" expanded="false" />
+            <element signature="e#165743#166132#0" expanded="false" />
+            <element signature="e#166224#166447#0" expanded="false" />
+            <element signature="e#166549#166934#0" expanded="false" />
+            <element signature="e#167033#167299#0" expanded="false" />
+            <element signature="e#167413#167767#0" expanded="false" />
+            <element signature="e#167858#168100#0" expanded="false" />
+            <element signature="e#168182#168352#0" expanded="false" />
+            <element signature="e#168431#168641#0" expanded="false" />
+            <element signature="e#168731#169229#0" expanded="false" />
+            <element signature="e#169308#169426#0" expanded="false" />
+            <element signature="e#169512#169720#0" expanded="false" />
+            <element signature="e#169795#169834#0" expanded="false" />
+            <element signature="e#169914#169954#0" expanded="false" />
+            <element signature="e#170028#170068#0" expanded="false" />
+            <element signature="e#170165#170317#0" expanded="false" />
+            <element signature="e#170401#170449#0" expanded="false" />
+            <element signature="e#170528#170566#0" expanded="false" />
+            <element signature="e#170648#170652#0" expanded="false" />
+            <element signature="e#171107#171671#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="80" selection-end-column="19" />
@@ -495,7 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/s17/02DataStructure/s1.py">
+    <entry file="file://$PROJECT_DIR$/s1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
@@ -552,19 +662,110 @@
             <element signature="e#168731#169229#0" expanded="false" />
             <element signature="e#169308#169426#0" expanded="false" />
             <element signature="e#169512#169720#0" expanded="false" />
+            <element signature="e#169795#169834#0" expanded="false" />
+            <element signature="e#169914#169954#0" expanded="false" />
+            <element signature="e#170028#170068#0" expanded="false" />
+            <element signature="e#170165#170317#0" expanded="false" />
+            <element signature="e#170401#170449#0" expanded="false" />
+            <element signature="e#170528#170566#0" expanded="false" />
+            <element signature="e#170648#170652#0" expanded="false" />
+            <element signature="e#171107#171671#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/s17/02DataStructure/log">
+    <entry file="file://$PROJECT_DIR$/log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/s17/02DataStructure/s2.py">
+    <entry file="file://$PROJECT_DIR$/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1811667513/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#154490#154684#0" expanded="false" />
+            <element signature="e#154766#154901#0" expanded="false" />
+            <element signature="e#155003#155223#0" expanded="false" />
+            <element signature="e#155329#155600#0" expanded="false" />
+            <element signature="e#155715#156256#0" expanded="false" />
+            <element signature="e#156368#156718#0" expanded="false" />
+            <element signature="e#156813#157045#0" expanded="false" />
+            <element signature="e#157150#157476#0" expanded="false" />
+            <element signature="e#157560#157787#0" expanded="false" />
+            <element signature="e#157880#158100#0" expanded="false" />
+            <element signature="e#158206#158367#0" expanded="false" />
+            <element signature="e#158448#158648#0" expanded="false" />
+            <element signature="e#158729#158927#0" expanded="false" />
+            <element signature="e#159010#159173#0" expanded="false" />
+            <element signature="e#159254#159448#0" expanded="false" />
+            <element signature="e#159534#159814#0" expanded="false" />
+            <element signature="e#159895#160104#0" expanded="false" />
+            <element signature="e#160187#160350#0" expanded="false" />
+            <element signature="e#160435#160630#0" expanded="false" />
+            <element signature="e#160711#160909#0" expanded="false" />
+            <element signature="e#160990#161315#0" expanded="false" />
+            <element signature="e#161396#161605#0" expanded="false" />
+            <element signature="e#161693#161896#0" expanded="false" />
+            <element signature="e#161997#162231#0" expanded="false" />
+            <element signature="e#162310#162439#0" expanded="false" />
+            <element signature="e#162531#162753#0" expanded="false" />
+            <element signature="e#162830#163464#0" expanded="false" />
+            <element signature="e#163552#163834#0" expanded="false" />
+            <element signature="e#163937#164210#0" expanded="false" />
+            <element signature="e#164316#164644#0" expanded="false" />
+            <element signature="e#164751#164914#0" expanded="false" />
+            <element signature="e#165015#165242#0" expanded="false" />
+            <element signature="e#165331#165640#0" expanded="false" />
+            <element signature="e#165743#166132#0" expanded="false" />
+            <element signature="e#166224#166447#0" expanded="false" />
+            <element signature="e#166549#166934#0" expanded="false" />
+            <element signature="e#167033#167299#0" expanded="false" />
+            <element signature="e#167413#167767#0" expanded="false" />
+            <element signature="e#167858#168100#0" expanded="false" />
+            <element signature="e#168182#168352#0" expanded="false" />
+            <element signature="e#168431#168641#0" expanded="false" />
+            <element signature="e#168731#169229#0" expanded="false" />
+            <element signature="e#169308#169426#0" expanded="false" />
+            <element signature="e#169512#169720#0" expanded="false" />
+            <element signature="e#169795#169834#0" expanded="false" />
+            <element signature="e#169914#169954#0" expanded="false" />
+            <element signature="e#170028#170068#0" expanded="false" />
+            <element signature="e#170165#170317#0" expanded="false" />
+            <element signature="e#170401#170449#0" expanded="false" />
+            <element signature="e#170528#170566#0" expanded="false" />
+            <element signature="e#170648#170652#0" expanded="false" />
+            <element signature="e#171107#171671#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="43" selection-end-column="70" />
@@ -572,7 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/s17/02DataStructure/s1.py">
+    <entry file="file://$PROJECT_DIR$/s1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
@@ -629,46 +830,44 @@
             <element signature="e#168731#169229#0" expanded="false" />
             <element signature="e#169308#169426#0" expanded="false" />
             <element signature="e#169512#169720#0" expanded="false" />
+            <element signature="e#169795#169834#0" expanded="false" />
+            <element signature="e#169914#169954#0" expanded="false" />
+            <element signature="e#170028#170068#0" expanded="false" />
+            <element signature="e#170165#170317#0" expanded="false" />
+            <element signature="e#170401#170449#0" expanded="false" />
+            <element signature="e#170528#170566#0" expanded="false" />
+            <element signature="e#170648#170652#0" expanded="false" />
+            <element signature="e#171107#171671#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/s17/02DataStructure/log">
+    <entry file="file://$PROJECT_DIR$/log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/s17/02DataStructure/log">
+    <entry file="file://$PROJECT_DIR$/log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/s17/02DataStructure/s1.py">
+    <entry file="file://$PROJECT_DIR$/s1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/s17/02DataStructure/s2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="80" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1811667513/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="4712" column="36" lean-forward="false" selection-start-line="4712" selection-start-column="30" selection-end-line="4712" selection-end-column="36" />
+        <state relative-caret-position="322">
+          <caret line="4720" column="0" lean-forward="true" selection-start-line="4647" selection-start-column="0" selection-end-line="4720" selection-end-column="0" />
           <folding>
             <element signature="e#154490#154684#0" expanded="false" />
             <element signature="e#154766#154901#0" expanded="false" />
@@ -714,7 +913,23 @@
             <element signature="e#168731#169229#0" expanded="false" />
             <element signature="e#169308#169426#0" expanded="false" />
             <element signature="e#169512#169720#0" expanded="false" />
+            <element signature="e#169795#169834#0" expanded="false" />
+            <element signature="e#169914#169954#0" expanded="false" />
+            <element signature="e#170028#170068#0" expanded="false" />
+            <element signature="e#170165#170317#0" expanded="false" />
+            <element signature="e#170401#170449#0" expanded="false" />
+            <element signature="e#170528#170566#0" expanded="false" />
+            <element signature="e#170648#170652#0" expanded="false" />
+            <element signature="e#171107#171671#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="122" column="36" lean-forward="false" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
