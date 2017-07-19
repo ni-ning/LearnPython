@@ -16,11 +16,11 @@ s2 = s.encode(encoding='utf-8')
 # utf-8(bytes) -->decode -->unicode
 # s.decode('utf-8')  # 报错 'str' object has no attribute 'decode',unicode只能encode()
 
-s3 = s2.decode()  # bytes 只能decode
+s3 = s2.decode(encoding='utf-8')  # bytes 只能decode
 
-print(s)
-print(s2)
-print(s3)
+print('s--->', s)
+print('s2--->', s2)
+print("s3--->", s3)  # PyCharm打印窗口的编码为utf-8，所以 s2.decode(encoding='utf-8')
 
 # 文件开头指定的编码，是Python3读取文件时加载到内存的编码
 # Python3中字符串(str这种数据类型)都会识别为unicode的结果
