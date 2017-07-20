@@ -1,0 +1,34 @@
+1 编码
+    内存中默认使用：unicode   不会出现乱码
+    硬盘中多数情况下：utf-8
+
+    utf-8 ---- decode -----> unicode(内存中)
+    unicode ---encode -----> utf-8: bytes
+    只有执行的过程中，才会有字符串的概念
+
+    加载过程：
+    s = '中国' 其中s  =  '  中国  ' 每一个字符以unicode编码在内存中
+    执行过程：
+    执行到'' ，才有编程语言的字符串类型这个说法
+    '中国'.encode('utf-8')  -->  bytes
+
+    注意：python  test.py
+    - 先从硬盘中找到test.py读入
+        # /usr/bin/env python
+        # coding:utf-8  # 告诉python解释器以什么编码打开test.py
+    -  执行test.py 的代码
+
+2 文件操作
+    with open('a.txt', 'r', encoding='utf-8') as f:   # 指定encoding='utf-8'，告诉open以什么编码打开文件
+        f.read()
+        f.seek(0)
+        f.readline()
+        f.readlines()
+
+    with open('a.txt', 'w', encoding='utf-8') as f:
+        f.write('1111\n')
+        f.writelines(['aaaaa\n', 'bbbbb\n'])
+
+    with open('a.txt', 'a', encoding='utf-8') as f:
+        f.write('1111\n')
+        f.writelines(['aaaaa\n', 'bbbbb\n'])
