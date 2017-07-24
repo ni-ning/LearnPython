@@ -31,6 +31,5 @@ def f1():
             print('from f3')
         f3()
     f2()
-
 f1()
 
