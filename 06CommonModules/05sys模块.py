@@ -18,6 +18,7 @@ sys.version        获取Python解释程序的版本信息
 sys.maxsize        Python3中最大的Int值
 sys.path           返回模块的搜索路径，初始化时使用PYTHONPATH环境变量的值
 sys.platform       返回操作系统平台名称
+sys.modules[__name__]   获得当前模块名称，一切皆对象，可以反射了
 """
 
 import sys, time
