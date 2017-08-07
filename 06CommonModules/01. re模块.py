@@ -117,3 +117,19 @@ print(re.findall('(?:ab)+123', 'ababab123'))  # ['ababab123']
 print(re.findall(r'a\\c', 'a\c')) #r代表告诉解释器使用rawstring，即原生字符串，把我们正则内的所有符号都当普通字符处理，不要转义
 print(re.findall('a\\\\c', 'a\c')) #同上面的意思一样，和上面的结果一样都是['a\\c']
 
+
+# =====================================re模块提供的方法介绍======================================
+print(re.findall('e','alex make love') )   #['e', 'e', 'e'],返回所有满足匹配条件的结果,放在列表里
+
+print(re.search('e','alex make love').group())
+#e,只到找到第一个匹配然后返回一个包含匹配信息的对象,该对象可以通过调用group()方法得到匹配的字符串,如果字符串没有匹配，则返回None。
+print(re.search('al(e)x\smak(e)\s','alex make love').group())  # alex make
+
+print(re.match('a','alex make love').group())    #None,同search,不过在字符串开始处进行匹配,完全可以用search+^代替match
+
+print(re.split('[ab]','abcd'))     #['', '', 'cd']，先按'a'分割得到''和'bcd',再对''和'bcd'分别按'b'分割
+
+print('===>',re.sub('a','A','alex make love')) #===> Alex mAke love，不指定n，默认替换所有
+print('===>',re.sub('a','A','alex make love',1)) #===> Alex make love
+print('===>',re.sub('a','A','alex make love',2)) #===> Alex mAke love
+print('===>',re.sub('^(\w+)(.*?\s)(\w+)(.*?\s)(\w+)(.*?)$',r'\5\2\3\4\1','alex make love')) #===> love make alex
