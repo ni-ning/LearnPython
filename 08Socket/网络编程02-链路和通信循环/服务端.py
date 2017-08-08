@@ -9,12 +9,14 @@ import socket
 1. conn, addr = s.accept()       # 等着客户端连接
 2. client_msg = conn.recv(1024)  # 等着客户端发消息
 
-避免客户端主动终止服务
-链接循环、通信循环
-
+注意点：
+1. 避免客户端主动终止服务 Windows: try...except   Linux: if not client_msg: break
+2. 链接循环 服务端服务多个客户端
+3. 通信循环 链路建立后，可以来回通信
 """
 
-s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)   # AF_INET 基于网络套接字；SOCK_STREAM流式，即tcp
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)   # AF_INET 基于网络套接字；SOCK_STREAM流式，即tcp
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) # 四次挥手，time_wait 优化
 s.bind(('127.0.0.1', 8080))
 s.listen(5)  # 当有多个连接时，挂起一部分，连接池  backlog
 
