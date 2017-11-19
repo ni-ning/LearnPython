@@ -4,30 +4,31 @@
 # email:nining1314@gmail.com
 
 print(abs(-1))
-print(all([1, 2, 3]))
-print(all(''))  # 空的也是 True
+print(all([1, 2, 3]))    # 元素有0, '',  None返回False
+print(all(''))           # 空的也是 True
 
-print(any([0, None, '', 1]))  # True
-print(any([]))     # False
+print(any([0, None, '', 1]))   # True
+print(any([]))                  # False
 
-print(bin(3))   # 十进制转二进制     0b11
+print(bin(3))   # 十进制转二进制    0b11
 print(hex(10))  # 十进制转十六进制  0xa
 print(oct(9))   # 十进制转八进制    0o11
 
-# 0 None 空 ===》 bool值为False
+# 0 None '' ===》  bool值为False
 
 
 def func():
     pass
 print(callable(func))
 
-print(chr(68))    # D   ascii 表 数字 ==> 字符
-print(ord('D'))  # 68
+print(chr(68))     # D   ascii 表 数字 ==> 字符
+print(ord('D'))   # 68
 
 """
-# 数据类型  工厂函数
+# 数据类型 工厂函数
 dict
 int
+float
 str
 set
 list
@@ -35,11 +36,11 @@ list
 
 l = [1, 2, 3]
 print(dir(l))   # 查看一个对象下面的属性
-print(help(l))  # 使用介绍
+help(l)         # 使用介绍
 
-print(divmod(100, 3)) # (商，余) 实现分页功能
+print(divmod(100, 3))  # (商，余) 实现分页功能
 
-enumerate([1, 2, 3]).__next__() # 迭代器
+enumerate([1, 2, 3]).__next__()  # 迭代器
 
 cmd = 'print("您好")'
 eval(cmd)
@@ -104,8 +105,6 @@ for i in z:
 # time 不是字符串
 m = __import__('time') # 以字符串的形式导入模块
 m.sleep(5)
-
-
 
 """
 # 面向对象里讲
