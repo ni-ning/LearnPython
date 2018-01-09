@@ -21,10 +21,10 @@ sys.platform       返回操作系统平台名称
 sys.modules[__name__]   获得当前模块名称，一切皆对象，可以反射了
 """
 
-import sys, time
+import sys,  time
 
 for i in range(50):
-    sys.stdout.write('%s%% %s\r' % (int(round((i+1)/50, 2) * 100),'#'*i))     # \r 跳到行首
+    sys.stdout.write('%s%% %s\r' % (int(round((i+1)/50, 2) * 100), '#'*i))     # \r 跳到行首
     sys.stdout.flush()
     time.sleep(0.1)
 

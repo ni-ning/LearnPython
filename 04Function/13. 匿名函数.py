@@ -36,6 +36,8 @@ print(max(res)[1])
 
 def func(k):
     return salaries.get(k)
+
+
 print(max(salaries, key=func))  # 第一取得key，传递可func，作为比较值
 print(max(salaries, key=lambda k: salaries.get(k)))
 
@@ -46,10 +48,15 @@ print(sorted(salaries, key=lambda k: salaries.get(k)))  # 按照value，从小�
 
 
 x = 1000
+
+
 def func():
     global x
     x = 0
+
+
 func()
+
 print(x)
 # 在func()执行过程中，修改了外部状态
 
@@ -61,7 +68,7 @@ reduce()
 filter()
 """
 list1 = ['alex', 'steven', 'egon']
-res = map(lambda i:i+'_sb', list1)  # map()对可迭代对象，遍历操作
+res = map(lambda i: i+'_sb', list1)  # map()对可迭代对象，遍历操作
 print(list(res))
 
 
