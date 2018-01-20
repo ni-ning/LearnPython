@@ -2,11 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08Socket/note" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/1 生产者消费者/receive.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/1 生产者消费者/send.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/2 工作队列/receive1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/2 工作队列/receive2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/2 工作队列/send.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/3 消息持久化/receive1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/3 消息持久化/receive2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/3 消息持久化/send.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/4 公平分发/receive1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/4 公平分发/receive2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/4 公平分发/send.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/5 发布订阅/5.1 fanout模式/fanout_logs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/5 发布订阅/5.1 fanout模式/receive.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/5 发布订阅/5.1 fanout模式/send.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/5 发布订阅/5.2 direct模式/emit_log_direct.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/5 发布订阅/5.2 direct模式/logs_from_rabbit.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/5 发布订阅/5.2 direct模式/receive_logs_direct.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/6 RPC/rpc_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/6 RPC/rpc_server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/7 Test/rpc_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18RabbitMQ/7 Test/rpc_server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/LearnCelery/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/LearnCelery/celery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/LearnCelery/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/LearnCelery/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/LearnCelery/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/README.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/tasks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/app/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19Celery/LearnCelery/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/01 解压赋值给多个变量.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/02 保留最后N个元素.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/03 查找最大或最小的N个元素.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/04 实现一个优先级队列.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/05 字典中键映射多个值.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/06 字典排序.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/07 字典的运算.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/08 查找两字典的相同点.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/09 删除序列相同元素并保持顺序.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/10 命名切片.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/11 序列中出现次数最多的元素.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/12 通过某个关键字排序一个字典列表.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/13 排序不支持原生比较的对象.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/14 通过某个字段将记录分组.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/15 过滤序列元素.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/16 从字典中提取子集.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/17 映射名称到序列元素.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/18 转换并同时计算数据.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/19 合并多个字典或映射.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/words" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/02字符串和文本/01 使用多个界定符分割字符串.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/04迭代器与生成器/01 手动遍历迭代器.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/04迭代器与生成器/02 代理迭代.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/04迭代器与生成器/03 使用生成器创建新的迭代模式.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/04迭代器与生成器/04 实现迭代器协议.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/04迭代器与生成器/05 反向迭代.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/04迭代器与生成器/06 带有外部状态的生成器函数.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/04迭代器与生成器/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/10模块与包/01 构建一个模块的顶级包.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/10模块与包/02 控制模块被全部导入的内容.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/FluentPython/01Python数据模型/1.1 一摞有序纸牌.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/FluentPython/01Python数据模型/1.2 一个简单的二维向量类.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/FluentPython/02序列构成的数组/2.2 列表推导和生成器表达式.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21PythonBooks/FluentPython/递归函数-作业.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/s17.iml" afterPath="$PROJECT_DIR$/.idea/s17.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04Function/13. 匿名函数.py" afterPath="$PROJECT_DIR$/04Function/13. 匿名函数.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06CommonModules/05sys模块.py" afterPath="$PROJECT_DIR$/06CommonModules/05sys模块.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08Socket/网络编程01-一次通信/服务端.py" afterPath="$PROJECT_DIR$/08Socket/网络编程01-一次通信/服务端.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,83 +87,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/s17$13__.coverage" NAME="13. 匿名函数 Coverage Results" MODIFIED="1511013725794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04Function" />
+    <SUITE FILE_PATH="coverage/s17$test__4_.coverage" NAME="test (4) Coverage Results" MODIFIED="1511090975877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
+    <SUITE FILE_PATH="coverage/LearnPython$05sys.coverage" NAME="05sys模块 Coverage Results" MODIFIED="1514018088160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06CommonModules" />
+    <SUITE FILE_PATH="coverage/s17$atm.coverage" NAME="atm Coverage Results" MODIFIED="1508759321932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/ATM/bin" />
+    <SUITE FILE_PATH="coverage/s17$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511090453193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
     <SUITE FILE_PATH="coverage/s17$01_.coverage" NAME="01.封装标准类型 Coverage Results" MODIFIED="1512822863966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
+    <SUITE FILE_PATH="coverage/s17$test03.coverage" NAME="test03 Coverage Results" MODIFIED="1511092093338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
+    <SUITE FILE_PATH="coverage/s17$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1508759229775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/calculator/calculator" />
+    <SUITE FILE_PATH="coverage/s17$13__.coverage" NAME="13. 匿名函数 Coverage Results" MODIFIED="1511013725794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04Function" />
+    <SUITE FILE_PATH="coverage/s17$04___.coverage" NAME="04.  实现迭代器协议 Coverage Results" MODIFIED="1512826077004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
+    <SUITE FILE_PATH="coverage/s17$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1511091419165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
+    <SUITE FILE_PATH="coverage/s17$.coverage" NAME="服务端 Coverage Results" MODIFIED="1516449492746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/网络编程01-一次通信" />
+    <SUITE FILE_PATH="coverage/s17$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1508758147326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
+    <SUITE FILE_PATH="coverage/s17$m_shop.coverage" NAME="m_shop Coverage Results" MODIFIED="1508757697295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
     <SUITE FILE_PATH="coverage/s17$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1511091908352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
+    <SUITE FILE_PATH="coverage/s17$05__.coverage" NAME="05. 上下文管理协议 Coverage Results" MODIFIED="1512828639084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
+    <SUITE FILE_PATH="coverage/s17$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1511074990209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/02fromimport" />
+    <SUITE FILE_PATH="coverage/s17$test.coverage" NAME="test Coverage Results" MODIFIED="1511088045828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/03模块导入顺序" />
+    <SUITE FILE_PATH="coverage/s17$03__2_.coverage" NAME="03. 加工标准类型2_授权 Coverage Results" MODIFIED="1512824654207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
     <SUITE FILE_PATH="coverage/s17$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1511073041135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import" />
     <SUITE FILE_PATH="coverage/s17$15__yield.coverage" NAME="15. yield表达式形式 Coverage Results" MODIFIED="1508841327546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04Function" />
-    <SUITE FILE_PATH="coverage/s17$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1508759229775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/calculator/calculator" />
-    <SUITE FILE_PATH="coverage/s17$test03.coverage" NAME="test03 Coverage Results" MODIFIED="1511092093338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
-    <SUITE FILE_PATH="coverage/s17$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1511074990209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/02fromimport" />
-    <SUITE FILE_PATH="coverage/s17$test__4_.coverage" NAME="test (4) Coverage Results" MODIFIED="1511090975877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
-    <SUITE FILE_PATH="coverage/s17$.coverage" NAME="员工信息增删改查程序 Coverage Results" MODIFIED="1511085735992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/路飞学员/林泽桐/员工信息增删改查程序/1049054285/员工信息增删改查程序" />
-    <SUITE FILE_PATH="coverage/s17$03__2_.coverage" NAME="03. 加工标准类型2_授权 Coverage Results" MODIFIED="1512824654207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-    <SUITE FILE_PATH="coverage/s17$test.coverage" NAME="test Coverage Results" MODIFIED="1511088045828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/03模块导入顺序" />
-    <SUITE FILE_PATH="coverage/s17$04___.coverage" NAME="04.  实现迭代器协议 Coverage Results" MODIFIED="1512826077004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-    <SUITE FILE_PATH="coverage/LearnPython$05sys.coverage" NAME="05sys模块 Coverage Results" MODIFIED="1514018088160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06CommonModules" />
-    <SUITE FILE_PATH="coverage/s17$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511090453193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
-    <SUITE FILE_PATH="coverage/s17$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1511091419165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
-    <SUITE FILE_PATH="coverage/s17$atm.coverage" NAME="atm Coverage Results" MODIFIED="1508759321932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/ATM/bin" />
-    <SUITE FILE_PATH="coverage/s17$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1508758147326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
-    <SUITE FILE_PATH="coverage/s17$05__.coverage" NAME="05. 上下文管理协议 Coverage Results" MODIFIED="1512828639084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-    <SUITE FILE_PATH="coverage/s17$m_shop.coverage" NAME="m_shop Coverage Results" MODIFIED="1508757697295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="13. 匿名函数.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04Function/13. 匿名函数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12. 元类5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07Object-Oriented/面向对象进阶/12. 元类5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12. 元类4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07Object-Oriented/面向对象进阶/12. 元类4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12. 元类3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07Object-Oriented/面向对象进阶/12. 元类3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meta_class1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07Object-Oriented/面向对象进阶/meta_class/meta_class1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,6 +161,8 @@
         <option value="$PROJECT_DIR$/07Object-Oriented/面向对象进阶/05. 上下文管理协议.py" />
         <option value="$PROJECT_DIR$/06CommonModules/05sys模块.py" />
         <option value="$PROJECT_DIR$/04Function/13. 匿名函数.py" />
+        <option value="$PROJECT_DIR$/08Socket/note" />
+        <option value="$PROJECT_DIR$/08Socket/网络编程01-一次通信/服务端.py" />
       </list>
     </option>
   </component>
@@ -149,11 +172,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="251" />
-    <option name="y" value="196" />
-    <option name="width" value="1501" />
-    <option name="height" value="1044" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -173,40 +196,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="07Object-Oriented" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/CommonSense" />
+    <property name="last_opened_file_path" value="D:/gstianfu/CommonSense" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\s17\19Celery" />
+      <recent name="E:\s17\18RabbitMQ" />
+      <recent name="E:\s17\21PythonBooks" />
+      <recent name="E:\s17\21PythonBooks\CookBook" />
+      <recent name="C:\Learning\LearnPython\07Object-Oriented\面向对象进阶\meta_class" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\s17\05Import\01import实例" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Learning\LearnPython\07Object-Oriented\面向对象进阶\meta_class" />
-      <recent name="E:\s17\05Import\03模块导入顺序" />
-      <recent name="E:\s17\05Import\02fromimport" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,26 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05sys模块">
-    <configuration name="01.封装标准类型" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="s17" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\s17\07Object-Oriented\面向对象进阶\02. 加工标准类型1_继承.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="03. 加工标准类型2_授权" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.服务端">
+    <configuration default="false" name="03. 加工标准类型2_授权" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -256,9 +261,9 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07Object-Oriented/面向对象进阶/03. 加工标准类型2_授权.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="04.  实现迭代器协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="04.  实现迭代器协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -274,9 +279,9 @@
       <option name="SCRIPT_NAME" value="E:\s17\07Object-Oriented\面向对象进阶\04. 实现迭代器协议.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="05. 上下文管理协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="05. 上下文管理协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -292,9 +297,9 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07Object-Oriented/面向对象进阶/05. 上下文管理协议.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="05sys模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="05sys模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -310,15 +315,25 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06CommonModules/05sys模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="false" name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08Socket/网络编程01-一次通信" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s17" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08Socket/网络编程01-一次通信/服务端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -406,6 +421,15 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="s17" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -526,19 +550,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.01.封装标准类型" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03. 加工标准类型2_授权" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04.  实现迭代器协议" />
-      <item index="3" class="java.lang.String" itemvalue="Python.05. 上下文管理协议" />
-      <item index="4" class="java.lang.String" itemvalue="Python.05sys模块" />
+      <item index="0" class="java.lang.String" itemvalue="Python.03. 加工标准类型2_授权" />
+      <item index="1" class="java.lang.String" itemvalue="Python.04.  实现迭代器协议" />
+      <item index="2" class="java.lang.String" itemvalue="Python.05. 上下文管理协议" />
+      <item index="3" class="java.lang.String" itemvalue="Python.05sys模块" />
+      <item index="4" class="java.lang.String" itemvalue="Python.服务端" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.05sys模块" />
-        <item index="1" class="java.lang.String" itemvalue="Python.05. 上下文管理协议" />
-        <item index="2" class="java.lang.String" itemvalue="Python.04.  实现迭代器协议" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03. 加工标准类型2_授权" />
-        <item index="4" class="java.lang.String" itemvalue="Python.01.封装标准类型" />
+        <item index="0" class="java.lang.String" itemvalue="Python.服务端" />
+        <item index="1" class="java.lang.String" itemvalue="Python.05sys模块" />
+        <item index="2" class="java.lang.String" itemvalue="Python.05. 上下文管理协议" />
+        <item index="3" class="java.lang.String" itemvalue="Python.04.  实现迭代器协议" />
+        <item index="4" class="java.lang.String" itemvalue="Python.03. 加工标准类型2_授权" />
       </list>
     </recent_temporary>
   </component>
@@ -565,20 +589,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17094018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2806354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26576576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2646048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46391752" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -586,10 +610,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -604,53 +629,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/作业批改/王玥/购物车/login2.py" />
-    <entry file="file://$PROJECT_DIR$/04Function/10. 装饰器1-无参分析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04Function/15. yield表达式形式应用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1811667513/_functools.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1811667513/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/04Function/13. 函数式编程.py" />
-    <entry file="file://$PROJECT_DIR$/04Function/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05Import/01import实例/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05Import/01import实例/spam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05Import/02fromimport/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/作业批改/路飞学员/林泽桐/员工信息增删改查程序/1049054285/员工信息增删改查程序/员工信息增删改查程序.py" />
     <entry file="file://$PROJECT_DIR$/05Import/02fromimport/spam.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -880,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04Function/13. 匿名函数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="1775">
           <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
           <folding />
         </state>
@@ -911,6 +889,94 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07Object-Oriented/面向对象进阶/meta_class/meta_class1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1811667513/_socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="546" column="28" lean-forward="false" selection-start-line="546" selection-start-column="21" selection-end-line="546" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08Socket/网络编程01-一次通信/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08Socket/网络编程01-一次通信/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/sockett/01 一次通信/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/01数据结构和算法/words">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08Socket/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08Socket/网络编程02-链路和通信循环/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08Socket/网络编程02-链路和通信循环/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/FluentPython/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18RabbitMQ/1 生产者消费者/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19Celery/LearnCelery/app/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

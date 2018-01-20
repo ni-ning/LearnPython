@@ -5,7 +5,7 @@
 
 import socket
 
-s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)   # AF_INET 基于网络套接字；SOCK_STREAM流式，即tcp
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)   # AF_INET 基于网络套接字；SOCK_STREAM流式，即tcp
 s.bind(('127.0.0.1', 8080))
 s.listen(5)  # 当有多个连接时，挂起一部分，连接池  backlog
 
