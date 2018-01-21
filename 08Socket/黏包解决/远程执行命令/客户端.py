@@ -48,5 +48,3 @@ while True:  # 通信循环
         recv_size += len(recv_data)
 
     print(data.decode('gbk'))  # subprocess结果默然编码为 平台编码 gbk
-
-client.close()

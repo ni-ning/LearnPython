@@ -9,7 +9,7 @@ ftp_server.bind(('127.0.0.1', 8080))
 ftp_server.listen(5)
 
 conn, addr = ftp_server.accept()
-res = conn.recv(100000)
+res = conn.recv(10000000)
 print(res.decode('utf-8'))
 
 conn.close()

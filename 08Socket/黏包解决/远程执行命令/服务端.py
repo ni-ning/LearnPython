@@ -52,5 +52,3 @@ while True:  # 链接循环，循环建链接
         except ConnectionResetError as e:
             break
     conn.close()
-
-s.close()

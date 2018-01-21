@@ -14,7 +14,4 @@ while True:  # 通信循环
     print('have sent')              # 回车 空 已发送，但是没有收到
 
     back_msg = client.recv(1024)
-
     print('back msg: ', back_msg.decode('utf-8'))
-
-client.close()
