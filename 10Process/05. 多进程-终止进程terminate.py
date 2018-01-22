@@ -17,7 +17,7 @@ if __name__ == '__main__':
     p1 = Process(target=task, args=('Linda',))
 
     p1.start()
-    p1.terminate() # p1 is killed, 但是p1的子进程却不回收，这些子进程会成为僵尸进程
+    p1.terminate()  # p1 is killed, 但是p1的子进程却不回收，这些子进程会成为僵尸进程
     print(p1.is_alive())
     print(p1.is_alive())
     print(p1.is_alive())
