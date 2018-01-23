@@ -7,7 +7,7 @@
 """
 # 先进先出
 # Queue([maxsize]):创建共享的进程队列，Queue是多进程安全的队列，可以使用Queue实现多进程之间的数据传递
-from multiprocessing import Process, Queue
+from multiprocessing import Queue
 
 q = Queue(maxsize=3)
 
