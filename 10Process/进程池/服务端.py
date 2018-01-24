@@ -28,7 +28,6 @@ def talk(conn, addr):
 if __name__ == '__main__':
     res_l = []
     pool = Pool(3)  # 只建一个pool池
-
     while True:
         conn, addr = server.accept()
 
