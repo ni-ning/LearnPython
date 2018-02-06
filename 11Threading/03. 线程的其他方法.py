@@ -9,6 +9,7 @@ import threading
 def work():
     print("%s says hello." % threading.current_thread().getName())
 
+
 if __name__ == '__main__':
     t = Thread(target=work)
 
