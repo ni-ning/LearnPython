@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/s17.iml" afterPath="$PROJECT_DIR$/.idea/s17.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/21PythonBooks/MongoDB/第1章 MongoDB简介" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/21PythonBooks/MongoDB/第2章 MongoDB基础知识" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/11Threading/03. 线程的其他方法.py" afterPath="$PROJECT_DIR$/11Threading/03. 线程的其他方法.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,22 +81,12 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="第2章 MongoDB基础知识" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB/第2章 MongoDB基础知识">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="第4章 查询" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第4章 查询">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="158" column="8" lean-forward="false" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="第1章 MongoDB简介" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB/第1章 MongoDB简介">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="-760">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="67" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -119,9 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10Process/03. 多进程-主进程调用join.py" />
-        <option value="$PROJECT_DIR$/10Process/04. 多进程-守护进程deamon.py" />
-        <option value="$PROJECT_DIR$/10Process/06.多进程-共享终端.py" />
         <option value="$PROJECT_DIR$/10Process/05. 多进程-终止进程terminate.py" />
         <option value="$PROJECT_DIR$/10Process/06.多进程-共享文件.py" />
         <option value="$PROJECT_DIR$/10Process/并发实例Socket/07.多进程-共享打印终端.py" />
@@ -170,6 +156,9 @@
         <option value="$PROJECT_DIR$/11Threading/03. 线程的其他方法.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/MongoDB/01MongoDB简介/01MongoDB简介" />
         <option value="$PROJECT_DIR$/21PythonBooks/MongoDB/第2章 MongoDB基础知识" />
+        <option value="$PROJECT_DIR$/21PythonBooks/MongoDB/第3章 创建、更新和删除文档" />
+        <option value="$PROJECT_DIR$/21PythonBooks/MongoDB/第4章 查询" />
+        <option value="$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第4章 查询" />
       </list>
     </option>
   </component>
@@ -225,20 +214,20 @@
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="21PythonBooks" type="462c0819:PsiDirectoryNode" />
-              <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
+              <item name="MongoDB-The Definitive Guide" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/gstianfu/rock" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
@@ -612,9 +601,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13782051" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16292734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281787" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -651,8 +639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/07函数/03 给函数参数增加元信息.py" />
-    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/07函数/02 只接受关键字参数的函数.py" />
     <entry file="file://$PROJECT_DIR$/08Socket/网络编程01-一次通信/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -886,18 +872,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB/第1章 MongoDB简介">
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第2章 MongoDB基础知识">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="440">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="148" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB/第2章 MongoDB基础知识">
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第3章 创建、更新和删除文档">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="158" column="8" lean-forward="false" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
+        <state relative-caret-position="160">
+          <caret line="155" column="4" lean-forward="false" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第1章 MongoDB简介">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第4章 查询">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="67" selection-end-column="37" />
           <folding />
         </state>
       </provider>
