@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15MySQL/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/15MySQL/docs/03表操作.md" afterPath="$PROJECT_DIR$/15MySQL/docs/03表操作.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,7 +81,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03表操作.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03表操作.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15MySQL/docs/03表操作.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -136,6 +136,32 @@
                   <marker date="1520394141032" expanded="true" signature="6328:6405" ph="insert into consumer... " />
                   <marker date="1520394141032" expanded="true" signature="6328:6442" ph="insert into consumer... " />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/15MySQL/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="20">
+                <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -230,11 +256,11 @@
         <option value="$PROJECT_DIR$/21PythonBooks/MongoDB/第3章 创建、更新和删除文档" />
         <option value="$PROJECT_DIR$/21PythonBooks/MongoDB/第4章 查询" />
         <option value="$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第4章 查询" />
-        <option value="$PROJECT_DIR$/15MySQL/README.md" />
         <option value="$PROJECT_DIR$/15MySQL/test.py" />
         <option value="$PROJECT_DIR$/15MySQL/wang" />
         <option value="$PROJECT_DIR$/15MySQL/docs/02初识SQL.md" />
         <option value="$PROJECT_DIR$/15MySQL/docs/03表操作.md" />
+        <option value="$PROJECT_DIR$/15MySQL/README.md" />
       </list>
     </option>
   </component>
@@ -714,14 +740,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/07函数/05 定义有默认参数的函数.py" />
-    <entry file="file://$PROJECT_DIR$/10Process/并发实例Socket/客户端3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10Process/并发实例Socket/客户端4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1086,6 +1104,28 @@
             <marker date="1520394141032" expanded="true" signature="6328:6405" ph="insert into consumer... " />
             <marker date="1520394141032" expanded="true" signature="6328:6442" ph="insert into consumer... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15MySQL/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
