@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15MySQL/docs/04数据操作-单表查询.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/docs/04数据操作.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/15MySQL/docs/03表操作.md" afterPath="$PROJECT_DIR$/15MySQL/docs/03表操作.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/15MySQL/docs/练习题.md" afterPath="$PROJECT_DIR$/15MySQL/docs/练习题.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,84 +15,121 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LearnPython$08____01.coverage" NAME="08. 多进程-进程间通信-生产者消费者01 Coverage Results" MODIFIED="1516674362661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$13__.coverage" NAME="13. 匿名函数 Coverage Results" MODIFIED="1511013725794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04Function" />
-    <SUITE FILE_PATH="coverage/s17$03__.coverage" NAME="03. 线程的其他方法 Coverage Results" MODIFIED="1517134686534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
+    <SUITE FILE_PATH="coverage/s17$test__4_.coverage" NAME="test (4) Coverage Results" MODIFIED="1511090975877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
+    <SUITE FILE_PATH="coverage/s17$01__.coverage" NAME="01. 多线程 Coverage Results" MODIFIED="1517124549559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
     <SUITE FILE_PATH="coverage/LearnPython$06____.coverage" NAME="06. 多进程-模拟抢票-加锁 Coverage Results" MODIFIED="1516788461067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
     <SUITE FILE_PATH="coverage/LearnPython$04_.coverage" NAME="04 返回多个值的函数 Coverage Results" MODIFIED="1516606071657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
-    <SUITE FILE_PATH="coverage/s17$01___Process.coverage" NAME="01. 多进程-开进程Process Coverage Results" MODIFIED="1516536778383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$3.coverage" NAME="客户端3 Coverage Results" MODIFIED="1516542686821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
-    <SUITE FILE_PATH="coverage/s17$15__yield.coverage" NAME="15. yield表达式形式 Coverage Results" MODIFIED="1508841327546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04Function" />
-    <SUITE FILE_PATH="coverage/LearnPython$08____03__.coverage" NAME="08. 多进程-进程间通信-生产者消费者03-主进程发送结束信号-多 Coverage Results" MODIFIED="1516674180808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/LearnPython$07__.coverage" NAME="07.多进程-共享打印终端 Coverage Results" MODIFIED="1516602845792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
+    <SUITE FILE_PATH="coverage/s17$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1508759229775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/calculator/calculator" />
+    <SUITE FILE_PATH="coverage/s17$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1511091419165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
+    <SUITE FILE_PATH="coverage/LearnPython$06__.coverage" NAME="06.多进程-共享文件 Coverage Results" MODIFIED="1516614809417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$08____01.coverage" NAME="08. 多进程-进程间通信-生产者消费者01 Coverage Results" MODIFIED="1516674362661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/s17$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1511073041135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import" />
+    <SUITE FILE_PATH="coverage/LearnPython$03___join.coverage" NAME="03. 多进程-主进程调用join Coverage Results" MODIFIED="1516601474844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$01_.coverage" NAME="01 可接受任意数量参数的函数 Coverage Results" MODIFIED="1516604604778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
+    <SUITE FILE_PATH="coverage/s17$03__.coverage" NAME="03. 线程的其他方法 Coverage Results" MODIFIED="1517134686534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
     <SUITE FILE_PATH="coverage/s17$06__.coverage" NAME="06.多进程-共享文件 Coverage Results" MODIFIED="1516544252865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/s17$13__.coverage" NAME="13. 匿名函数 Coverage Results" MODIFIED="1511013725794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04Function" />
+    <SUITE FILE_PATH="coverage/LearnPython$4.coverage" NAME="客户端4 Coverage Results" MODIFIED="1516791734671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
+    <SUITE FILE_PATH="coverage/LearnPython$3.coverage" NAME="客户端3 Coverage Results" MODIFIED="1516791732985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
+    <SUITE FILE_PATH="coverage/LearnPython$08____05_JoinableQueue.coverage" NAME="08. 多进程-进程间通信-生产者消费者05-JoinableQueue Coverage Results" MODIFIED="1516767323985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$05_.coverage" NAME="05 定义有默认参数的函数 Coverage Results" MODIFIED="1516606714424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
+    <SUITE FILE_PATH="coverage/s17$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1511091908352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
+    <SUITE FILE_PATH="coverage/s17$text.coverage" NAME="text Coverage Results" MODIFIED="1517126716290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading/多线程模拟文本编辑器" />
+    <SUITE FILE_PATH="coverage/s17$05__.coverage" NAME="05. 上下文管理协议 Coverage Results" MODIFIED="1512828639084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
+    <SUITE FILE_PATH="coverage/s17$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1511074990209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/02fromimport" />
+    <SUITE FILE_PATH="coverage/s17$01___Process.coverage" NAME="01. 多进程-开进程Process Coverage Results" MODIFIED="1516536778383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$02_.coverage" NAME="02 只接受关键字参数的函数 Coverage Results" MODIFIED="1516605282183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
+    <SUITE FILE_PATH="coverage/LearnPython$.coverage" NAME="服务端 Coverage Results" MODIFIED="1516791666662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
+    <SUITE FILE_PATH="coverage/s17$atm.coverage" NAME="atm Coverage Results" MODIFIED="1508759321932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/ATM/bin" />
+    <SUITE FILE_PATH="coverage/s17$3.coverage" NAME="客户端3 Coverage Results" MODIFIED="1516542686821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
+    <SUITE FILE_PATH="coverage/LearnPython$08____02.coverage" NAME="08. 多进程-进程间通信-生产者消费者02 Coverage Results" MODIFIED="1516672715097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/s17$01_.coverage" NAME="01.封装标准类型 Coverage Results" MODIFIED="1512822863966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
     <SUITE FILE_PATH="coverage/s17$test03.coverage" NAME="test03 Coverage Results" MODIFIED="1511092093338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
+    <SUITE FILE_PATH="coverage/s17$c__1_.coverage" NAME="c (1) Coverage Results" MODIFIED="1516511693352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象02-客户端一次发 服务端多次收" />
+    <SUITE FILE_PATH="coverage/s17$04___deamon.coverage" NAME="04. 多进程-守护进程deamon Coverage Results" MODIFIED="1516539557743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/s17$02__.coverage" NAME="02. 共享一个进程 Coverage Results" MODIFIED="1517125185024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
+    <SUITE FILE_PATH="coverage/s17$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1508758147326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
+    <SUITE FILE_PATH="coverage/LearnPython$08____03__.coverage" NAME="08. 多进程-进程间通信-生产者消费者03-主进程发送结束信号-多 Coverage Results" MODIFIED="1516674180808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$07____1_.coverage" NAME="07.多进程-共享打印终端 (1) Coverage Results" MODIFIED="1516602988367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$08____04__.coverage" NAME="08. 多进程-进程间通信-生产者消费者04-主进程发送结束信号-多 Coverage Results" MODIFIED="1516674426799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$2.coverage" NAME="客户端2 Coverage Results" MODIFIED="1516791671254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
+    <SUITE FILE_PATH="coverage/s17$03___join.coverage" NAME="03. 多进程-主进程调用join Coverage Results" MODIFIED="1516538001880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$5.coverage" NAME="客户端5 Coverage Results" MODIFIED="1516791677244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
+    <SUITE FILE_PATH="coverage/LearnPython$06_.coverage" NAME="06 定义匿名或内联函数 Coverage Results" MODIFIED="1516609773971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
+    <SUITE FILE_PATH="coverage/LearnPython$08____03_.coverage" NAME="08. 多进程-进程间通信-生产者消费者03-主进程发送结束信号 Coverage Results" MODIFIED="1516673802371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$05sys.coverage" NAME="05sys模块 Coverage Results" MODIFIED="1514018088160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06CommonModules" />
+    <SUITE FILE_PATH="coverage/LearnPython$07__.coverage" NAME="07.多进程-共享打印终端 Coverage Results" MODIFIED="1516602845792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
+    <SUITE FILE_PATH="coverage/s17$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511090453193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
+    <SUITE FILE_PATH="coverage/s17$1.coverage" NAME="客户端1 Coverage Results" MODIFIED="1516542657634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
+    <SUITE FILE_PATH="coverage/LearnPython$03_.coverage" NAME="03 给函数参数增加元信息 Coverage Results" MODIFIED="1516605830955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
+    <SUITE FILE_PATH="coverage/s17$04___.coverage" NAME="04.  实现迭代器协议 Coverage Results" MODIFIED="1512826077004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
+    <SUITE FILE_PATH="coverage/s17$.coverage" NAME="进程池之模拟爬虫 Coverage Results" MODIFIED="1516805225135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
     <SUITE FILE_PATH="coverage/LearnPython$6.coverage" NAME="客户端6 Coverage Results" MODIFIED="1516791679003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
+    <SUITE FILE_PATH="coverage/s17$2.coverage" NAME="客户端2 Coverage Results" MODIFIED="1516542667135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
+    <SUITE FILE_PATH="coverage/s17$s__1_.coverage" NAME="s (1) Coverage Results" MODIFIED="1516511691089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象02-客户端一次发 服务端多次收" />
     <SUITE FILE_PATH="coverage/s17$c.coverage" NAME="c Coverage Results" MODIFIED="1516511642175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象01-客户端一直发 服务端一次收" />
     <SUITE FILE_PATH="coverage/LearnPython$07_.coverage" NAME="07 匿名函数捕获变量值 Coverage Results" MODIFIED="1516610318313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
-    <SUITE FILE_PATH="coverage/LearnPython$07____1_.coverage" NAME="07.多进程-共享打印终端 (1) Coverage Results" MODIFIED="1516602988367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511090453193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
+    <SUITE FILE_PATH="coverage/s17$m_shop.coverage" NAME="m_shop Coverage Results" MODIFIED="1508757697295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
+    <SUITE FILE_PATH="coverage/s17$__1_.coverage" NAME="服务端 (1) Coverage Results" MODIFIED="1516542654408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
     <SUITE FILE_PATH="coverage/s17$s.coverage" NAME="s Coverage Results" MODIFIED="1516511640786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象01-客户端一直发 服务端一次收" />
     <SUITE FILE_PATH="coverage/LearnPython$1.coverage" NAME="客户端1 Coverage Results" MODIFIED="1516791669530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
-    <SUITE FILE_PATH="coverage/LearnPython$08____.coverage" NAME="08. 多进程-进程间通信-生产者消费者 Coverage Results" MODIFIED="1516618444711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/LearnPython$03___join.coverage" NAME="03. 多进程-主进程调用join Coverage Results" MODIFIED="1516601474844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1511073041135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import" />
-    <SUITE FILE_PATH="coverage/s17$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1508759229775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/calculator/calculator" />
-    <SUITE FILE_PATH="coverage/s17$1.coverage" NAME="客户端1 Coverage Results" MODIFIED="1516542657634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
-    <SUITE FILE_PATH="coverage/s17$text.coverage" NAME="text Coverage Results" MODIFIED="1517126716290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading/多线程模拟文本编辑器" />
-    <SUITE FILE_PATH="coverage/LearnPython$03_.coverage" NAME="03 给函数参数增加元信息 Coverage Results" MODIFIED="1516605830955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
-    <SUITE FILE_PATH="coverage/s17$test__4_.coverage" NAME="test (4) Coverage Results" MODIFIED="1511090975877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
-    <SUITE FILE_PATH="coverage/LearnPython$3.coverage" NAME="客户端3 Coverage Results" MODIFIED="1516791732985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
-    <SUITE FILE_PATH="coverage/s17$04___.coverage" NAME="04.  实现迭代器协议 Coverage Results" MODIFIED="1512826077004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-    <SUITE FILE_PATH="coverage/LearnPython$08____02.coverage" NAME="08. 多进程-进程间通信-生产者消费者02 Coverage Results" MODIFIED="1516672715097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1511091419165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
-    <SUITE FILE_PATH="coverage/s17$05__.coverage" NAME="05. 上下文管理协议 Coverage Results" MODIFIED="1512828639084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-    <SUITE FILE_PATH="coverage/s17$atm.coverage" NAME="atm Coverage Results" MODIFIED="1508759321932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/ATM/bin" />
-    <SUITE FILE_PATH="coverage/LearnPython$06_.coverage" NAME="06 定义匿名或内联函数 Coverage Results" MODIFIED="1516609773971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
-    <SUITE FILE_PATH="coverage/s17$01_.coverage" NAME="01.封装标准类型 Coverage Results" MODIFIED="1512822863966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-    <SUITE FILE_PATH="coverage/LearnPython$02_.coverage" NAME="02 只接受关键字参数的函数 Coverage Results" MODIFIED="1516605282183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
-    <SUITE FILE_PATH="coverage/LearnPython$2.coverage" NAME="客户端2 Coverage Results" MODIFIED="1516791671254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
-    <SUITE FILE_PATH="coverage/LearnPython$08____03_.coverage" NAME="08. 多进程-进程间通信-生产者消费者03-主进程发送结束信号 Coverage Results" MODIFIED="1516673802371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$c__1_.coverage" NAME="c (1) Coverage Results" MODIFIED="1516511693352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象02-客户端一次发 服务端多次收" />
-    <SUITE FILE_PATH="coverage/s17$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1511074990209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/02fromimport" />
-    <SUITE FILE_PATH="coverage/s17$04___deamon.coverage" NAME="04. 多进程-守护进程deamon Coverage Results" MODIFIED="1516539557743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$.coverage" NAME="进程池之模拟爬虫 Coverage Results" MODIFIED="1516805225135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
-    <SUITE FILE_PATH="coverage/s17$2.coverage" NAME="客户端2 Coverage Results" MODIFIED="1516542667135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
-    <SUITE FILE_PATH="coverage/s17$03__2_.coverage" NAME="03. 加工标准类型2_授权 Coverage Results" MODIFIED="1512824654207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
-    <SUITE FILE_PATH="coverage/LearnPython$08____04__.coverage" NAME="08. 多进程-进程间通信-生产者消费者04-主进程发送结束信号-多 Coverage Results" MODIFIED="1516674426799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/LearnPython$05_.coverage" NAME="05 定义有默认参数的函数 Coverage Results" MODIFIED="1516606714424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
-    <SUITE FILE_PATH="coverage/s17$s__1_.coverage" NAME="s (1) Coverage Results" MODIFIED="1516511691089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象02-客户端一次发 服务端多次收" />
-    <SUITE FILE_PATH="coverage/LearnPython$06__.coverage" NAME="06.多进程-共享文件 Coverage Results" MODIFIED="1516614809417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$m_shop.coverage" NAME="m_shop Coverage Results" MODIFIED="1508757697295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
-    <SUITE FILE_PATH="coverage/s17$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1511091908352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
-    <SUITE FILE_PATH="coverage/LearnPython$4.coverage" NAME="客户端4 Coverage Results" MODIFIED="1516791734671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
-    <SUITE FILE_PATH="coverage/s17$__1_.coverage" NAME="服务端 (1) Coverage Results" MODIFIED="1516542654408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
-    <SUITE FILE_PATH="coverage/s17$02__.coverage" NAME="02. 共享一个进程 Coverage Results" MODIFIED="1517125185024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
-    <SUITE FILE_PATH="coverage/LearnPython$.coverage" NAME="服务端 Coverage Results" MODIFIED="1516791666662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
     <SUITE FILE_PATH="coverage/s17$test.coverage" NAME="test Coverage Results" MODIFIED="1520168728215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15MySQL" />
-    <SUITE FILE_PATH="coverage/LearnPython$05sys.coverage" NAME="05sys模块 Coverage Results" MODIFIED="1514018088160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06CommonModules" />
-    <SUITE FILE_PATH="coverage/s17$03___join.coverage" NAME="03. 多进程-主进程调用join Coverage Results" MODIFIED="1516538001880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/LearnPython$01_.coverage" NAME="01 可接受任意数量参数的函数 Coverage Results" MODIFIED="1516604604778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
-    <SUITE FILE_PATH="coverage/LearnPython$5.coverage" NAME="客户端5 Coverage Results" MODIFIED="1516791677244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
-    <SUITE FILE_PATH="coverage/s17$01__.coverage" NAME="01. 多线程 Coverage Results" MODIFIED="1517124549559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
-    <SUITE FILE_PATH="coverage/s17$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1508758147326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
-    <SUITE FILE_PATH="coverage/LearnPython$08____05_JoinableQueue.coverage" NAME="08. 多进程-进程间通信-生产者消费者05-JoinableQueue Coverage Results" MODIFIED="1516767323985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/s17$03__2_.coverage" NAME="03. 加工标准类型2_授权 Coverage Results" MODIFIED="1512824654207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
+    <SUITE FILE_PATH="coverage/LearnPython$08____.coverage" NAME="08. 多进程-进程间通信-生产者消费者 Coverage Results" MODIFIED="1516618444711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/s17$15__yield.coverage" NAME="15. yield表达式形式 Coverage Results" MODIFIED="1508841327546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04Function" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04数据操作.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/15MySQL/docs/04数据操作.md">
+      <file leaf-file-name="04数据操作-单表查询.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/15MySQL/docs/04数据操作-单表查询.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="514">
-                <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="63" selection-end-column="30" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="234">
+                <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
                 <folding>
-                  <marker date="1520592040894" expanded="true" signature="444:783" ph="create table... employee" />
-                  <marker date="1520592040894" expanded="true" signature="807:1901" ph="insert into employee... " />
+                  <marker date="1520762135251" expanded="true" signature="444:783" ph="create table... employee" />
+                  <marker date="1520762135251" expanded="true" signature="807:1901" ph="insert into employee... " />
+                  <marker date="1520762135251" expanded="true" signature="2512:2575" ph="select post,... employee" />
+                  <marker date="1520762135251" expanded="true" signature="2590:2656" ph="select post,... employee" />
+                  <marker date="1520762135251" expanded="true" signature="2669:2735" ph="select post,... employee" />
+                  <marker date="1520762135251" expanded="true" signature="2748:2814" ph="select post,... employee" />
+                  <marker date="1520762135251" expanded="true" signature="2827:2887" ph="select post,... employee" />
+                  <marker date="1520762135251" expanded="true" signature="3518:3622" ph="select post,... employee" />
+                  <marker date="1520762135251" expanded="true" signature="3660:3726" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="3660:3753" ph="select post,... employee" />
+                  <marker date="1520762135251" expanded="true" signature="3786:3834" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="3873:3920" ph="select post,... " />
+                  <marker date="1520762135251" expanded="true" signature="3873:3944" ph="select post,... " />
+                  <marker date="1520762135251" expanded="true" signature="3873:3957" ph="select post,... " />
+                  <marker date="1520762135251" expanded="true" signature="3873:3965" ph="select post,... " />
+                  <marker date="1520762135251" expanded="true" signature="3873:3978" ph="select post,... " />
+                  <marker date="1520762135251" expanded="true" signature="3873:3992" ph="select post,... " />
+                  <marker date="1520762135251" expanded="true" signature="3873:4065" ph="select post,... " />
+                  <marker date="1520762135251" expanded="true" signature="4257:4308" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="4342:4375" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="4380:4413" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="4418:4452" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="5413:5458" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="5464:5511" ph="select * fro... employee" />
+                  <marker date="1520762135251" expanded="true" signature="5517:5572" ph="select * fro... employee" />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05数据操作-多表查询.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -114,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/07函数/04 返回多个值的函数.ipynb" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/07函数/04 返回多个值的函数.py" />
         <option value="$PROJECT_DIR$/08Socket/网络编程02-链路和通信循环/服务端.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/07函数/05 定义有默认参数的函数.py" />
@@ -165,6 +202,7 @@
         <option value="$PROJECT_DIR$/15MySQL/docs/03表操作.md" />
         <option value="$PROJECT_DIR$/15MySQL/docs/04数据操作.py" />
         <option value="$PROJECT_DIR$/15MySQL/docs/04数据操作.md" />
+        <option value="$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md" />
       </list>
     </option>
   </component>
@@ -174,7 +212,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1364" />
@@ -198,30 +236,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="15MySQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="15MySQL" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="15MySQL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="15MySQL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,18 +293,18 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\s17\15MySQL\docs" />
+      <recent name="C:\Learning\LearnPython\21PythonBooks\MongoDB" />
+      <recent name="C:\Learning\LearnPython\10Process" />
+      <recent name="E:\s17\05Import\01import实例" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\s17\15MySQL\docs" />
       <recent name="E:\s17\11Threading" />
       <recent name="E:\s17\10Process\进程池" />
       <recent name="C:\Learning\LearnPython\10Process\进程池" />
       <recent name="C:\Learning\LearnPython\10Process\并发实例Socket" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\s17\15MySQL\docs" />
-      <recent name="C:\Learning\LearnPython\21PythonBooks\MongoDB" />
-      <recent name="C:\Learning\LearnPython\10Process" />
-      <recent name="E:\s17\05Import\01import实例" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,7 +320,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.test">
-    <configuration name="01. 多线程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="01. 多线程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -274,9 +336,9 @@
       <option name="SCRIPT_NAME" value="E:\s17\11Threading\01. 开启多线程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="02. 共享一个进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="02. 共享一个进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -292,9 +354,27 @@
       <option name="SCRIPT_NAME" value="E:\s17\11Threading\02. 多线程共享一个进程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="03. 线程的其他方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11Threading/多线程模拟文本编辑器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s17" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11Threading/多线程模拟文本编辑器/text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="03. 线程的其他方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -310,15 +390,25 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11Threading/03. 线程的其他方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15MySQL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s17" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15MySQL/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -406,6 +496,15 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="s17" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -525,42 +624,6 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15MySQL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="s17" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15MySQL/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11Threading/多线程模拟文本编辑器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="s17" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11Threading/多线程模拟文本编辑器/text.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.01. 多线程" />
       <item index="1" class="java.lang.String" itemvalue="Python.02. 共享一个进程" />
@@ -604,32 +667,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12339743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21319018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281787" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05496454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46391752" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05496454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46391752" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -647,7 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10Process/08. 多进程-进程间通信-生产者消费者05-JoinableQueue.py" />
     <entry file="file://$PROJECT_DIR$/10Process/08. 多进程-进程间通信-生产者消费者03-主进程发送结束信号.py" />
     <entry file="file://$PROJECT_DIR$/08Socket/黏包解决/远程执行命令/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -885,16 +947,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15MySQL/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="20">
-            <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/15MySQL/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -910,247 +963,103 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="280">
             <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="210" selection-end-column="27" />
-            <folding>
-              <marker date="1520560793718" expanded="true" signature="36:71" ph="create datab... school" />
-              <marker date="1520560793718" expanded="true" signature="93:205" ph="create table... class_grade" />
-              <marker date="1520560793718" expanded="true" signature="93:218" ph="create table... class_grade" />
-              <marker date="1520560793718" expanded="true" signature="93:264" ph="create table... class_grade" />
-              <marker date="1520560793718" expanded="true" signature="224:264" ph="insert into class_grade... " />
-              <marker date="1520560793718" expanded="true" signature="270:310" ph="insert into class_grade... " />
-              <marker date="1520560793718" expanded="true" signature="316:356" ph="insert into class_grade... " />
-              <marker date="1520560793718" expanded="true" signature="408:663" ph="create table... class" />
-              <marker date="1520560793718" expanded="true" signature="408:676" ph="create table... class" />
-              <marker date="1520560793718" expanded="true" signature="682:720" ph="insert into class... " />
-              <marker date="1520560793718" expanded="true" signature="726:764" ph="insert into class... " />
-              <marker date="1520560793718" expanded="true" signature="770:808" ph="insert into class... " />
-              <marker date="1520560793718" expanded="true" signature="862:1143" ph="create table... student" />
-              <marker date="1520560793718" expanded="true" signature="862:1156" ph="create table... student" />
-              <marker date="1520560793718" expanded="true" signature="1162:1206" ph="insert into student... " />
-              <marker date="1520560793718" expanded="true" signature="1212:1257" ph="insert into student... " />
-              <marker date="1520560793718" expanded="true" signature="1263:1307" ph="insert into student... " />
-              <marker date="1520560793718" expanded="true" signature="1361:1381" ph="create table... teacher" />
-              <marker date="1520560793718" expanded="true" signature="1361:1458" ph="create table... teacher" />
-              <marker date="1520560793718" expanded="true" signature="1361:1471" ph="create table... teacher" />
-              <marker date="1520560793718" expanded="true" signature="1477:1511" ph="insert into teacher... " />
-              <marker date="1520560793718" expanded="true" signature="1517:1551" ph="insert into teacher... " />
-              <marker date="1520560793718" expanded="true" signature="1557:1591" ph="insert into teacher... " />
-              <marker date="1520560793718" expanded="true" signature="1644:1663" ph="create table... course" />
-              <marker date="1520560793718" expanded="true" signature="1644:1907" ph="create table... course" />
-              <marker date="1520560793718" expanded="true" signature="1644:1920" ph="create table... course" />
-              <marker date="1520560793718" expanded="true" signature="1926:1964" ph="insert into course... " />
-              <marker date="1520560793718" expanded="true" signature="1970:2008" ph="insert into course... " />
-              <marker date="1520560793718" expanded="true" signature="2014:2052" ph="insert into course... " />
-              <marker date="1520560793718" expanded="true" signature="2102:2528" ph="create table... score" />
-              <marker date="1520560793718" expanded="true" signature="2102:2541" ph="create table... score" />
-              <marker date="1520560793718" expanded="true" signature="2552:2589" ph="insert into score... " />
-              <marker date="1520560793718" expanded="true" signature="2595:2632" ph="insert into score... " />
-              <marker date="1520560793718" expanded="true" signature="2638:2675" ph="insert into score... " />
-              <marker date="1520560793718" expanded="true" signature="2732:2754" ph="create table... teach2cls" />
-              <marker date="1520560793718" expanded="true" signature="2732:3093" ph="create table... teach2cls" />
-              <marker date="1520560793718" expanded="true" signature="2732:3106" ph="create table... teach2cls" />
-              <marker date="1520560793718" expanded="true" signature="3117:3155" ph="insert into teach2cls... " />
-              <marker date="1520560793718" expanded="true" signature="3161:3199" ph="insert into teach2cls... " />
-              <marker date="1520560793718" expanded="true" signature="3205:3243" ph="insert into teach2cls... " />
-              <marker date="1520560793718" expanded="true" signature="3249:3287" ph="insert into teach2cls... " />
-              <marker date="1520560793718" expanded="true" signature="3338:3366" ph="select count... student" />
-              <marker date="1520560793718" expanded="true" signature="3417:3436" ph="select stude... " />
-              <marker date="1520560793718" expanded="true" signature="3417:3461" ph="select stude... score" />
-              <marker date="1520560793718" expanded="true" signature="3417:3601" ph="select stude... score" />
-              <marker date="1520560793718" expanded="true" signature="3417:3629" ph="select s.stu... score" />
-              <marker date="1520560793718" expanded="true" signature="3677:3737" ph="select from class" />
-              <marker date="1520560793718" expanded="true" signature="3677:3759" ph="select grade... class" />
-              <marker date="1520560793718" expanded="true" signature="3677:3782" ph="select grade... class" />
-              <marker date="1520560793718" expanded="true" signature="3677:3797" ph="select grade... class" />
-              <marker date="1520560793718" expanded="true" signature="3846:4046" ph="(select stud... " />
-              <marker date="1520560793718" expanded="true" signature="3846:4256" ph="(select stud... " />
-              <marker date="1520560793718" expanded="true" signature="3847:3915" ph="select from score" />
-              <marker date="1520560793718" expanded="true" signature="3847:4003" ph="select stude... score" />
-              <marker date="1520560793718" expanded="true" signature="3847:4031" ph="select stude... score" />
-              <marker date="1520560793718" expanded="true" signature="3847:4045" ph="select stude... score" />
-              <marker date="1520560793718" expanded="true" signature="4062:4255" ph="select stude... score" />
-              <marker date="1520560793718" expanded="true" signature="4290:4352" ph="select from grade" />
-              <marker date="1520560793718" expanded="true" signature="4290:4375" ph="select from grade" />
-              <marker date="1520560793718" expanded="true" signature="4290:4401" ph="select from grade" />
-              <marker date="1520560793718" expanded="true" signature="4290:4412" ph="select from grade" />
-              <marker date="1520560793718" expanded="true" signature="4290:4429" ph="select from grade" />
-              <marker date="1520560793718" expanded="true" signature="4290:4472" ph="select g.gid... class_grade" />
-              <marker date="1520560793718" expanded="true" signature="4516:4606" ph="select from... " />
-              <marker date="1520560793718" expanded="true" signature="4516:4621" ph="select from student" />
-              <marker date="1520560793718" expanded="true" signature="4516:4646" ph="select from student" />
-              <marker date="1520560793718" expanded="true" signature="4516:4675" ph="select stu.s... student" />
-              <marker date="1520560793718" expanded="true" signature="4516:4696" ph="select stu.s... student" />
-              <marker date="1520560793718" expanded="true" signature="4759:5215" ph="(select stu.... " />
-              <marker date="1520560793718" expanded="true" signature="4760:4804" ph="select from st" />
-              <marker date="1520560793718" expanded="true" signature="4760:4816" ph="select from student" />
-              <marker date="1520560793718" expanded="true" signature="4760:4841" ph="select from student" />
-              <marker date="1520560793718" expanded="true" signature="4760:4870" ph="select from student" />
-              <marker date="1520560793718" expanded="true" signature="4760:4942" ph="select stu.s... student" />
-              <marker date="1520560793718" expanded="true" signature="4760:4968" ph="select stu.s... student" />
-              <marker date="1520560793718" expanded="true" signature="4760:4981" ph="select stu.s... student" />
-              <marker date="1520560793718" expanded="true" signature="4998:5214" ph="select stu.s... student" />
-              <marker date="1520560793718" expanded="true" signature="5256:5280" ph="select from teacher" />
-              <marker date="1520560793718" expanded="true" signature="5256:5316" ph="select from teacher" />
-              <marker date="1520560793718" expanded="true" signature="5256:5337" ph="select from teacher" />
-              <marker date="1520560793718" expanded="true" signature="5256:5364" ph="select from teacher" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/docs/03表操作.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <marker date="1520578149398" expanded="true" signature="102:139" ph="show variabl... " />
-            <marker date="1520578149398" expanded="true" signature="188:224" ph="create table... t1" />
-            <marker date="1520578149398" expanded="true" signature="283:320" ph="create table... t2" />
-            <marker date="1520578149398" expanded="true" signature="364:403" ph="create table... t3" />
-            <marker date="1520578149398" expanded="true" signature="441:477" ph="create table... t4" />
-            <marker date="1520578149398" expanded="true" signature="600:632" ph="create datab... db1" />
-            <marker date="1520578149398" expanded="true" signature="666:770" ph="create table... t1" />
-            <marker date="1520578149398" expanded="true" signature="775:886" ph="create table... t1" />
-            <marker date="1520578149398" expanded="true" signature="775:923" ph="create table... t1" />
-            <marker date="1520578149398" expanded="true" signature="775:940" ph="create table... t1" />
-            <marker date="1520578149398" expanded="true" signature="970:1006" ph="alter table t1... " />
-            <marker date="1520578149398" expanded="true" signature="1019:1055" ph="alter table t1... " />
-            <marker date="1520578149398" expanded="true" signature="1069:1111" ph="alter table t1... " />
-            <marker date="1520578149398" expanded="true" signature="1117:1164" ph="alter table t1... " />
-            <marker date="1520578149398" expanded="true" signature="1170:1193" ph="alter table t1... " />
-            <marker date="1520578149398" expanded="true" signature="1206:1241" ph="alter table t1... " />
-            <marker date="1520578149398" expanded="true" signature="1260:1323" ph="alter table t1... " />
-            <marker date="1520578149398" expanded="true" signature="1351:1406" ph="create table... new_user" />
-            <marker date="1520578149398" expanded="true" signature="1373:1406" ph="select host,... user" />
-            <marker date="1520578149398" expanded="true" signature="1424:1480" ph="create table... new_user" />
-            <marker date="1520578149398" expanded="true" signature="1446:1480" ph="select * fro... user" />
-            <marker date="1520578149398" expanded="true" signature="1507:1544" ph="create table... new_user" />
-            <marker date="1520578149398" expanded="true" signature="1563:1576" ph="drop table t... " />
-            <marker date="1520578149398" expanded="true" signature="2258:2290" ph="create table... t1" />
-            <marker date="1520578149398" expanded="true" signature="2296:2329" ph="create table... t2" />
-            <marker date="1520578149398" expanded="true" signature="2335:2368" ph="create table... t3" />
-            <marker date="1520578149398" expanded="true" signature="2379:2435" ph="insert into t1... " />
-            <marker date="1520578149398" expanded="true" signature="2452:2508" ph="insert into t2... " />
-            <marker date="1520578149398" expanded="true" signature="2525:2581" ph="insert into t3... " />
-            <marker date="1520578149398" expanded="true" signature="2603:2619" ph="select * fro... t1" />
-            <marker date="1520578149398" expanded="true" signature="2695:2711" ph="select * fro... t2" />
-            <marker date="1520578149398" expanded="true" signature="2799:2815" ph="select * fro... t3" />
-            <marker date="1520578149398" expanded="true" signature="3004:3161" ph="create table... student" />
-            <marker date="1520578149398" expanded="true" signature="3840:3866" ph="insert into student... " />
-            <marker date="1520578149398" expanded="true" signature="3840:3914" ph="insert into student... " />
-            <marker date="1520578149398" expanded="true" signature="3840:4345" ph="insert into student... " />
-            <marker date="1520578149398" expanded="true" signature="3924:4345" ph="select * fro... student" />
-            <marker date="1520578149398" expanded="true" signature="4522:4553" ph="create table... t4" />
-            <marker date="1520578149398" expanded="true" signature="4897:5012" ph="update CURRE... " />
-            <marker date="1520578149398" expanded="true" signature="4897:5045" ph="update CURRE... " />
-            <marker date="1520578149398" expanded="true" signature="5051:5078" ph="insert into t4... " />
-            <marker date="1520578149398" expanded="true" signature="5089:5105" ph="select * fro... t4" />
-            <marker date="1520578149398" expanded="true" signature="5791:5823" ph="select char_... t4" />
-            <marker date="1520578149398" expanded="true" signature="6064:6317" ph="create table... consumer" />
-            <marker date="1520578149398" expanded="true" signature="6328:6355" ph="insert into consumer... " />
-            <marker date="1520578149398" expanded="true" signature="6328:6405" ph="insert into consumer... " />
-            <marker date="1520578149398" expanded="true" signature="6328:6442" ph="insert into consumer... " />
-            <marker date="1520578149398" expanded="true" signature="7603:7711" ph="create table... dep" />
-            <marker date="1520578149398" expanded="true" signature="7732:8008" ph="create table... emp" />
-            <marker date="1520578149398" expanded="true" signature="8047:8090" ph="insert into dep... " />
-            <marker date="1520578149398" expanded="true" signature="8047:8252" ph="insert into dep... " />
-            <marker date="1520578149398" expanded="true" signature="8096:8142" ph="insert into dep... " />
-            <marker date="1520578149398" expanded="true" signature="8148:8196" ph="insert into dep... " />
-            <marker date="1520578149398" expanded="true" signature="8207:8252" ph="insert into emp... " />
-            <marker date="1520578149398" expanded="true" signature="8258:8303" ph="insert into emp... " />
-            <marker date="1520578149398" expanded="true" signature="8309:8357" ph="insert into emp... " />
-            <marker date="1520578149398" expanded="true" signature="8363:8408" ph="insert into emp... " />
-          </folding>
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2920">
             <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-            <folding>
-              <marker date="1520578149398" expanded="true" signature="102:139" ph="show variabl... " />
-              <marker date="1520578149398" expanded="true" signature="188:224" ph="create table... t1" />
-              <marker date="1520578149398" expanded="true" signature="283:320" ph="create table... t2" />
-              <marker date="1520578149398" expanded="true" signature="364:403" ph="create table... t3" />
-              <marker date="1520578149398" expanded="true" signature="441:477" ph="create table... t4" />
-              <marker date="1520578149398" expanded="true" signature="600:632" ph="create datab... db1" />
-              <marker date="1520578149398" expanded="true" signature="666:770" ph="create table... t1" />
-              <marker date="1520578149398" expanded="true" signature="775:886" ph="create table... t1" />
-              <marker date="1520578149398" expanded="true" signature="775:923" ph="create table... t1" />
-              <marker date="1520578149398" expanded="true" signature="775:940" ph="create table... t1" />
-              <marker date="1520578149398" expanded="true" signature="970:1006" ph="alter table t1... " />
-              <marker date="1520578149398" expanded="true" signature="1019:1055" ph="alter table t1... " />
-              <marker date="1520578149398" expanded="true" signature="1069:1111" ph="alter table t1... " />
-              <marker date="1520578149398" expanded="true" signature="1117:1164" ph="alter table t1... " />
-              <marker date="1520578149398" expanded="true" signature="1170:1193" ph="alter table t1... " />
-              <marker date="1520578149398" expanded="true" signature="1206:1241" ph="alter table t1... " />
-              <marker date="1520578149398" expanded="true" signature="1260:1323" ph="alter table t1... " />
-              <marker date="1520578149398" expanded="true" signature="1351:1406" ph="create table... new_user" />
-              <marker date="1520578149398" expanded="true" signature="1373:1406" ph="select host,... user" />
-              <marker date="1520578149398" expanded="true" signature="1424:1480" ph="create table... new_user" />
-              <marker date="1520578149398" expanded="true" signature="1446:1480" ph="select * fro... user" />
-              <marker date="1520578149398" expanded="true" signature="1507:1544" ph="create table... new_user" />
-              <marker date="1520578149398" expanded="true" signature="1563:1576" ph="drop table t... " />
-              <marker date="1520578149398" expanded="true" signature="2258:2290" ph="create table... t1" />
-              <marker date="1520578149398" expanded="true" signature="2296:2329" ph="create table... t2" />
-              <marker date="1520578149398" expanded="true" signature="2335:2368" ph="create table... t3" />
-              <marker date="1520578149398" expanded="true" signature="2379:2435" ph="insert into t1... " />
-              <marker date="1520578149398" expanded="true" signature="2452:2508" ph="insert into t2... " />
-              <marker date="1520578149398" expanded="true" signature="2525:2581" ph="insert into t3... " />
-              <marker date="1520578149398" expanded="true" signature="2603:2619" ph="select * fro... t1" />
-              <marker date="1520578149398" expanded="true" signature="2695:2711" ph="select * fro... t2" />
-              <marker date="1520578149398" expanded="true" signature="2799:2815" ph="select * fro... t3" />
-              <marker date="1520578149398" expanded="true" signature="3004:3161" ph="create table... student" />
-              <marker date="1520578149398" expanded="true" signature="3840:3866" ph="insert into student... " />
-              <marker date="1520578149398" expanded="true" signature="3840:3914" ph="insert into student... " />
-              <marker date="1520578149398" expanded="true" signature="3840:4345" ph="insert into student... " />
-              <marker date="1520578149398" expanded="true" signature="3924:4345" ph="select * fro... student" />
-              <marker date="1520578149398" expanded="true" signature="4522:4553" ph="create table... t4" />
-              <marker date="1520578149398" expanded="true" signature="4897:5012" ph="update CURRE... " />
-              <marker date="1520578149398" expanded="true" signature="4897:5045" ph="update CURRE... " />
-              <marker date="1520578149398" expanded="true" signature="5051:5078" ph="insert into t4... " />
-              <marker date="1520578149398" expanded="true" signature="5089:5105" ph="select * fro... t4" />
-              <marker date="1520578149398" expanded="true" signature="5791:5823" ph="select char_... t4" />
-              <marker date="1520578149398" expanded="true" signature="6064:6317" ph="create table... consumer" />
-              <marker date="1520578149398" expanded="true" signature="6328:6355" ph="insert into consumer... " />
-              <marker date="1520578149398" expanded="true" signature="6328:6405" ph="insert into consumer... " />
-              <marker date="1520578149398" expanded="true" signature="6328:6442" ph="insert into consumer... " />
-              <marker date="1520578149398" expanded="true" signature="7603:7711" ph="create table... dep" />
-              <marker date="1520578149398" expanded="true" signature="7732:8008" ph="create table... emp" />
-              <marker date="1520578149398" expanded="true" signature="8047:8090" ph="insert into dep... " />
-              <marker date="1520578149398" expanded="true" signature="8047:8252" ph="insert into dep... " />
-              <marker date="1520578149398" expanded="true" signature="8096:8142" ph="insert into dep... " />
-              <marker date="1520578149398" expanded="true" signature="8148:8196" ph="insert into dep... " />
-              <marker date="1520578149398" expanded="true" signature="8207:8252" ph="insert into emp... " />
-              <marker date="1520578149398" expanded="true" signature="8258:8303" ph="insert into emp... " />
-              <marker date="1520578149398" expanded="true" signature="8309:8357" ph="insert into emp... " />
-              <marker date="1520578149398" expanded="true" signature="8363:8408" ph="insert into emp... " />
-            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15MySQL/docs/04数据操作.md">
+    <entry file="file://$PROJECT_DIR$/15MySQL/docs/04数据操作-单表查询.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="234">
+            <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
+            <folding>
+              <marker date="1520762135251" expanded="true" signature="444:783" ph="create table... employee" />
+              <marker date="1520762135251" expanded="true" signature="807:1901" ph="insert into employee... " />
+              <marker date="1520762135251" expanded="true" signature="2512:2575" ph="select post,... employee" />
+              <marker date="1520762135251" expanded="true" signature="2590:2656" ph="select post,... employee" />
+              <marker date="1520762135251" expanded="true" signature="2669:2735" ph="select post,... employee" />
+              <marker date="1520762135251" expanded="true" signature="2748:2814" ph="select post,... employee" />
+              <marker date="1520762135251" expanded="true" signature="2827:2887" ph="select post,... employee" />
+              <marker date="1520762135251" expanded="true" signature="3518:3622" ph="select post,... employee" />
+              <marker date="1520762135251" expanded="true" signature="3660:3726" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="3660:3753" ph="select post,... employee" />
+              <marker date="1520762135251" expanded="true" signature="3786:3834" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="3873:3920" ph="select post,... " />
+              <marker date="1520762135251" expanded="true" signature="3873:3944" ph="select post,... " />
+              <marker date="1520762135251" expanded="true" signature="3873:3957" ph="select post,... " />
+              <marker date="1520762135251" expanded="true" signature="3873:3965" ph="select post,... " />
+              <marker date="1520762135251" expanded="true" signature="3873:3978" ph="select post,... " />
+              <marker date="1520762135251" expanded="true" signature="3873:3992" ph="select post,... " />
+              <marker date="1520762135251" expanded="true" signature="3873:4065" ph="select post,... " />
+              <marker date="1520762135251" expanded="true" signature="4257:4308" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="4342:4375" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="4380:4413" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="4418:4452" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="5413:5458" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="5464:5511" ph="select * fro... employee" />
+              <marker date="1520762135251" expanded="true" signature="5517:5572" ph="select * fro... employee" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520592040894" expanded="true" signature="444:783" ph="create table... employee" />
-            <marker date="1520592040894" expanded="true" signature="807:1901" ph="insert into employee... " />
+            <marker date="1520762135251" expanded="true" signature="444:783" ph="create table... employee" />
+            <marker date="1520762135251" expanded="true" signature="807:1901" ph="insert into employee... " />
+            <marker date="1520762135251" expanded="true" signature="2512:2575" ph="select post,... employee" />
+            <marker date="1520762135251" expanded="true" signature="2590:2656" ph="select post,... employee" />
+            <marker date="1520762135251" expanded="true" signature="2669:2735" ph="select post,... employee" />
+            <marker date="1520762135251" expanded="true" signature="2748:2814" ph="select post,... employee" />
+            <marker date="1520762135251" expanded="true" signature="2827:2887" ph="select post,... employee" />
+            <marker date="1520762135251" expanded="true" signature="3518:3622" ph="select post,... employee" />
+            <marker date="1520762135251" expanded="true" signature="3660:3726" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="3660:3753" ph="select post,... employee" />
+            <marker date="1520762135251" expanded="true" signature="3786:3834" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="3873:3920" ph="select post,... " />
+            <marker date="1520762135251" expanded="true" signature="3873:3944" ph="select post,... " />
+            <marker date="1520762135251" expanded="true" signature="3873:3957" ph="select post,... " />
+            <marker date="1520762135251" expanded="true" signature="3873:3965" ph="select post,... " />
+            <marker date="1520762135251" expanded="true" signature="3873:3978" ph="select post,... " />
+            <marker date="1520762135251" expanded="true" signature="3873:3992" ph="select post,... " />
+            <marker date="1520762135251" expanded="true" signature="3873:4065" ph="select post,... " />
+            <marker date="1520762135251" expanded="true" signature="4257:4308" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="4342:4375" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="4380:4413" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="4418:4452" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="5413:5458" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="5464:5511" ph="select * fro... employee" />
+            <marker date="1520762135251" expanded="true" signature="5517:5572" ph="select * fro... employee" />
           </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="514">
-            <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="63" selection-end-column="30" />
-            <folding>
-              <marker date="1520592040894" expanded="true" signature="444:783" ph="create table... employee" />
-              <marker date="1520592040894" expanded="true" signature="807:1901" ph="insert into employee... " />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
