@@ -1,0 +1,39 @@
+1. 什么是异常：异常是错误发生的信号，一旦程序出错，并且程序没有处理这个错误，那这个异常就会抛出，并且程序的运行随之终止
+
+异常追踪信息 Traceback
+异常类型  如ValueError   类型 类
+异常值
+
+2. 错误分两种
+语法错误
+    print('xxx'
+    if 1 > 2
+逻辑错误
+    ValueError  如 int('aaa')
+    NameError   如 name
+    IndexError  如 l = [1, 3] l[1000]
+    KeyError    如 d = {} d['name']
+    AttributeError    如 class Foo:pass  Foo.xxx
+    ZeroDivisionError 如 1/0
+    TypeError   如 for i in 3: pass
+
+常见异常
+    AttributeError 试图访问一个对象没有的属性，比如foo.x，但是foo没有属性x
+    IOError 输入/输出异常；基本上是无法打开文件
+    ImportError 无法引入模块或包；基本上是路径问题或名称错误
+    IndentationError 语法错误（的子类） ；代码没有正确对齐
+    IndexError 下标索引超出序列边界，比如当x只有三个元素，却试图访问x[5]
+    KeyError 试图访问字典里不存在的键
+    KeyboardInterrupt Ctrl+C被按下
+    NameError 使用一个还未被赋予对象的变量
+    SyntaxError Python代码非法，代码不能编译(个人认为这是语法错误，写错了）
+    TypeError 传入对象类型与要求的不符合
+    UnboundLocalError 试图访问一个还未被设置的局部变量，基本上是由于另有一个同名的全局变量，
+    导致你以为正在访问它
+    ValueError 传入一个调用者不期望的值，即使值的类型是正确的
+
+3. 异常处理(异常不处理会导致程序停止，但异常对代码可读性不友好)
+强调一：错误发生的条件如果是可以预知的，此时应该用if判断去预防异常
+强调二：错误发生的条件如果是不可以预知的，此时应该用异常处理机制
+try ... except
+

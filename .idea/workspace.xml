@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15MySQL/docs/04数据操作-单表查询.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/docs/04数据操作.md" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09Exception/note" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +21,7 @@
     <SUITE FILE_PATH="coverage/s17$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1511091419165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
     <SUITE FILE_PATH="coverage/LearnPython$06__.coverage" NAME="06.多进程-共享文件 Coverage Results" MODIFIED="1516614809417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
     <SUITE FILE_PATH="coverage/LearnPython$08____01.coverage" NAME="08. 多进程-进程间通信-生产者消费者01 Coverage Results" MODIFIED="1516674362661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/s17$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1511073041135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import" />
+    <SUITE FILE_PATH="coverage/s17$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1520777974521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$03___join.coverage" NAME="03. 多进程-主进程调用join Coverage Results" MODIFIED="1516601474844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
     <SUITE FILE_PATH="coverage/LearnPython$01_.coverage" NAME="01 可接受任意数量参数的函数 Coverage Results" MODIFIED="1516604604778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
     <SUITE FILE_PATH="coverage/s17$03__.coverage" NAME="03. 线程的其他方法 Coverage Results" MODIFIED="1517134686534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
@@ -83,55 +81,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04数据操作-单表查询.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/15MySQL/docs/04数据操作-单表查询.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="234">
-                <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
-                <folding>
-                  <marker date="1520762135251" expanded="true" signature="444:783" ph="create table... employee" />
-                  <marker date="1520762135251" expanded="true" signature="807:1901" ph="insert into employee... " />
-                  <marker date="1520762135251" expanded="true" signature="2512:2575" ph="select post,... employee" />
-                  <marker date="1520762135251" expanded="true" signature="2590:2656" ph="select post,... employee" />
-                  <marker date="1520762135251" expanded="true" signature="2669:2735" ph="select post,... employee" />
-                  <marker date="1520762135251" expanded="true" signature="2748:2814" ph="select post,... employee" />
-                  <marker date="1520762135251" expanded="true" signature="2827:2887" ph="select post,... employee" />
-                  <marker date="1520762135251" expanded="true" signature="3518:3622" ph="select post,... employee" />
-                  <marker date="1520762135251" expanded="true" signature="3660:3726" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="3660:3753" ph="select post,... employee" />
-                  <marker date="1520762135251" expanded="true" signature="3786:3834" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="3873:3920" ph="select post,... " />
-                  <marker date="1520762135251" expanded="true" signature="3873:3944" ph="select post,... " />
-                  <marker date="1520762135251" expanded="true" signature="3873:3957" ph="select post,... " />
-                  <marker date="1520762135251" expanded="true" signature="3873:3965" ph="select post,... " />
-                  <marker date="1520762135251" expanded="true" signature="3873:3978" ph="select post,... " />
-                  <marker date="1520762135251" expanded="true" signature="3873:3992" ph="select post,... " />
-                  <marker date="1520762135251" expanded="true" signature="3873:4065" ph="select post,... " />
-                  <marker date="1520762135251" expanded="true" signature="4257:4308" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="4342:4375" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="4380:4413" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="4418:4452" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="5413:5458" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="5464:5511" ph="select * fro... employee" />
-                  <marker date="1520762135251" expanded="true" signature="5517:5572" ph="select * fro... employee" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05数据操作-多表查询.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+    <leaf>
+      <file leaf-file-name="note" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09Exception/note">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="32" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/07函数/04 返回多个值的函数.py" />
-        <option value="$PROJECT_DIR$/08Socket/网络编程02-链路和通信循环/服务端.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/07函数/05 定义有默认参数的函数.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/07函数/06 定义匿名或内联函数.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/07函数/07 匿名函数捕获变量值.py" />
@@ -203,6 +157,8 @@
         <option value="$PROJECT_DIR$/15MySQL/docs/04数据操作.py" />
         <option value="$PROJECT_DIR$/15MySQL/docs/04数据操作.md" />
         <option value="$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/09Exception/note" />
       </list>
     </option>
   </component>
@@ -260,25 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="15MySQL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s17" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s17" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="15MySQL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
+              <option name="myItemId" value="09Exception" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,7 +227,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/gstianfu/gbm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
@@ -319,25 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration default="false" name="01. 多线程" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11Threading" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="s17" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\s17\11Threading\01. 开启多线程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.test (1)">
     <configuration default="false" name="02. 共享一个进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,6 +326,24 @@
       <module name="s17" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15MySQL/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s17" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -625,19 +563,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.01. 多线程" />
-      <item index="1" class="java.lang.String" itemvalue="Python.02. 共享一个进程" />
-      <item index="2" class="java.lang.String" itemvalue="Python.text" />
-      <item index="3" class="java.lang.String" itemvalue="Python.03. 线程的其他方法" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.02. 共享一个进程" />
+      <item index="1" class="java.lang.String" itemvalue="Python.text" />
+      <item index="2" class="java.lang.String" itemvalue="Python.03. 线程的其他方法" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.03. 线程的其他方法" />
-        <item index="2" class="java.lang.String" itemvalue="Python.text" />
-        <item index="3" class="java.lang.String" itemvalue="Python.02. 共享一个进程" />
-        <item index="4" class="java.lang.String" itemvalue="Python.01. 多线程" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.03. 线程的其他方法" />
+        <item index="3" class="java.lang.String" itemvalue="Python.text" />
+        <item index="4" class="java.lang.String" itemvalue="Python.02. 共享一个进程" />
       </list>
     </recent_temporary>
   </component>
@@ -667,10 +605,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21319018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21625766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281787" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -683,7 +621,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05496454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18794326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -710,14 +648,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10Process/08. 多进程-进程间通信-生产者消费者03-主进程发送结束信号.py" />
-    <entry file="file://$PROJECT_DIR$/08Socket/黏包解决/远程执行命令/服务端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10Process/并发实例Socket/客户端1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -969,6 +899,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/docs/03表操作.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2920">
@@ -977,89 +912,38 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/docs/05数据操作-多表查询.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/docs/04数据操作-单表查询.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="234">
-            <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
-            <folding>
-              <marker date="1520762135251" expanded="true" signature="444:783" ph="create table... employee" />
-              <marker date="1520762135251" expanded="true" signature="807:1901" ph="insert into employee... " />
-              <marker date="1520762135251" expanded="true" signature="2512:2575" ph="select post,... employee" />
-              <marker date="1520762135251" expanded="true" signature="2590:2656" ph="select post,... employee" />
-              <marker date="1520762135251" expanded="true" signature="2669:2735" ph="select post,... employee" />
-              <marker date="1520762135251" expanded="true" signature="2748:2814" ph="select post,... employee" />
-              <marker date="1520762135251" expanded="true" signature="2827:2887" ph="select post,... employee" />
-              <marker date="1520762135251" expanded="true" signature="3518:3622" ph="select post,... employee" />
-              <marker date="1520762135251" expanded="true" signature="3660:3726" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="3660:3753" ph="select post,... employee" />
-              <marker date="1520762135251" expanded="true" signature="3786:3834" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="3873:3920" ph="select post,... " />
-              <marker date="1520762135251" expanded="true" signature="3873:3944" ph="select post,... " />
-              <marker date="1520762135251" expanded="true" signature="3873:3957" ph="select post,... " />
-              <marker date="1520762135251" expanded="true" signature="3873:3965" ph="select post,... " />
-              <marker date="1520762135251" expanded="true" signature="3873:3978" ph="select post,... " />
-              <marker date="1520762135251" expanded="true" signature="3873:3992" ph="select post,... " />
-              <marker date="1520762135251" expanded="true" signature="3873:4065" ph="select post,... " />
-              <marker date="1520762135251" expanded="true" signature="4257:4308" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="4342:4375" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="4380:4413" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="4418:4452" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="5413:5458" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="5464:5511" ph="select * fro... employee" />
-              <marker date="1520762135251" expanded="true" signature="5517:5572" ph="select * fro... employee" />
-            </folding>
+          <first_editor relative-caret-position="572">
+            <caret line="181" column="4" lean-forward="true" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520762135251" expanded="true" signature="444:783" ph="create table... employee" />
-            <marker date="1520762135251" expanded="true" signature="807:1901" ph="insert into employee... " />
-            <marker date="1520762135251" expanded="true" signature="2512:2575" ph="select post,... employee" />
-            <marker date="1520762135251" expanded="true" signature="2590:2656" ph="select post,... employee" />
-            <marker date="1520762135251" expanded="true" signature="2669:2735" ph="select post,... employee" />
-            <marker date="1520762135251" expanded="true" signature="2748:2814" ph="select post,... employee" />
-            <marker date="1520762135251" expanded="true" signature="2827:2887" ph="select post,... employee" />
-            <marker date="1520762135251" expanded="true" signature="3518:3622" ph="select post,... employee" />
-            <marker date="1520762135251" expanded="true" signature="3660:3726" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="3660:3753" ph="select post,... employee" />
-            <marker date="1520762135251" expanded="true" signature="3786:3834" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="3873:3920" ph="select post,... " />
-            <marker date="1520762135251" expanded="true" signature="3873:3944" ph="select post,... " />
-            <marker date="1520762135251" expanded="true" signature="3873:3957" ph="select post,... " />
-            <marker date="1520762135251" expanded="true" signature="3873:3965" ph="select post,... " />
-            <marker date="1520762135251" expanded="true" signature="3873:3978" ph="select post,... " />
-            <marker date="1520762135251" expanded="true" signature="3873:3992" ph="select post,... " />
-            <marker date="1520762135251" expanded="true" signature="3873:4065" ph="select post,... " />
-            <marker date="1520762135251" expanded="true" signature="4257:4308" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="4342:4375" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="4380:4413" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="4418:4452" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="5413:5458" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="5464:5511" ph="select * fro... employee" />
-            <marker date="1520762135251" expanded="true" signature="5517:5572" ph="select * fro... employee" />
-          </folding>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/09Exception/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="32" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
