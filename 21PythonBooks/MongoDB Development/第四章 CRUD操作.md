@@ -1,17 +1,17 @@
 ### 1. 插入文档
 
-insert 如果插入数据的时候，collection还不存在时，自动创建集合
-insertOne：插入一条数据
-insertMany：接收数组，插入多条文档
-    (*) db.student1.insertOne({"_id":"stu001", "name":"Tom", "age":25, "grade":{"chinese":80, "math":90, "english":88}})
-    (*) db.student1.insertMany([
-        {"_id":"stu003", "name":"Mary", "age":23, "grade":{"chinese":80, "math":90}},
-        {"_id":"stu004", "name":"Mike", "age":25, "grade":{"chinese":80, "math":90, "english":88}},
-    ])
-    (*) 统一的形式：insert 插入文档，也可以是文档的数组，就是insertOne与insertMany的统一
+    insert 如果插入数据的时候，collection还不存在时，自动创建集合
+    insertOne：插入一条数据
+    insertMany：接收数组，插入多条文档
+        (*) db.student1.insertOne({"_id":"stu001", "name":"Tom", "age":25, "grade":{"chinese":80, "math":90, "english":88}})
+        (*) db.student1.insertMany([
+            {"_id":"stu003", "name":"Mary", "age":23, "grade":{"chinese":80, "math":90}},
+            {"_id":"stu004", "name":"Mike", "age":25, "grade":{"chinese":80, "math":90, "english":88}},
+        ])
+        (*) 统一的形式：insert 插入文档，也可以是文档的数组，就是insertOne与insertMany的统一
 
 ### 2. 查询文档  
-  数据源参考数据脚本
+    数据源参考数据脚本
   
     (*) 基本查询
         (1) 查询所有的员工信息
@@ -98,7 +98,14 @@ insertMany：接收数组，插入多条文档
     (3) 官方文档
         https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/#db.collection.updateOne
     
-### 4. 删除文档
-        
+### 4. 删除文档：deleteOne和deleteMany
+        db.emp.deleteOne({"_id":7839})
+
+### 5. 批处理：为了提高效率，db.collection.bulkWrite，支持insert，update，remove以及insertMany
+        db.mystudents.bulkWrite([
+            {"insertOne":{"document":{"_id":100, "name":"Tom", "age":25}}},
+            {"insertOne":{"document":{"_id":101, "name":"Mary", "age":26}}},
+            {"updateOne":{"filter":{"_id":100}, "update":{"$set":{"name":"Tom123"}}}}
+        ])
  
     
