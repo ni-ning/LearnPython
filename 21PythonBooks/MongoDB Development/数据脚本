@@ -1,0 +1,78 @@
+db.emp.insert(
+[
+{_id:7369,ename:'SMITH' ,job:'CLERK'    ,mgr:7902,hiredate:'17-12-80',sal:800,comm:0,deptno:20},
+{_id:7499,ename:'ALLEN' ,job:'SALESMAN' ,mgr:7698,hiredate:'20-02-81',sal:1600,comm:300 ,deptno:30},
+{_id:7521,ename:'WARD'  ,job:'SALESMAN' ,mgr:7698,hiredate:'22-02-81',sal:1250,comm:500 ,deptno:30},
+{_id:7566,ename:'JONES' ,job:'MANAGER'  ,mgr:7839,hiredate:'02-04-81',sal:2975,comm:0,deptno:20},
+{_id:7654,ename:'MARTIN',job:'SALESMAN' ,mgr:7698,hiredate:'28-09-81',sal:1250,comm:1400,deptno:30},
+{_id:7698,ename:'BLAKE' ,job:'MANAGER'  ,mgr:7839,hiredate:'01-05-81',sal:2850,comm:0,deptno:30},
+{_id:7782,ename:'CLARK' ,job:'MANAGER'  ,mgr:7839,hiredate:'09-06-81',sal:2450,comm:0,deptno:10},
+{_id:7788,ename:'SCOTT' ,job:'ANALYST'  ,mgr:7566,hiredate:'19-04-87',sal:3000,comm:0,deptno:20},
+{_id:7839,ename:'KING'  ,job:'PRESIDENT',mgr:0,hiredate:'17-11-81',sal:5000,comm:0,deptno:10},
+{_id:7844,ename:'TURNER',job:'SALESMAN' ,mgr:7698,hiredate:'08-09-81',sal:1500,comm:0,deptno:30},
+{_id:7876,ename:'ADAMS' ,job:'CLERK'    ,mgr:7788,hiredate:'23-05-87',sal:1100,comm:0,deptno:20},
+{_id:7900,ename:'JAMES' ,job:'CLERK'    ,mgr:7698,hiredate:'03-12-81',sal:950,comm:0,deptno:30},
+{_id:7902,ename:'FORD'  ,job:'ANALYST'  ,mgr:7566,hiredate:'03-12-81',sal:3000,comm:0,deptno:20},
+{_id:7934,ename:'MILLER',job:'CLERK'    ,mgr:7782,hiredate:'23-01-82',sal:1300,comm:0,deptno:10}
+]
+);
+
+
+db.student2.insertMany([
+{_id:"stu0001",name:"Mary",age:25,grade:{chinese:80,math:85,english:90}},
+{_id:"stu0002",name:"Tom",age:25,grade:{chinese:86,math:82,english:95}},
+{_id:"stu0003",name:"Mike",age:25,grade:{chinese:81,math:90,english:88}},
+{_id:"stu0004",name:"Jerry",age:25,grade:{chinese:95,math:87,english:89}}
+])
+
+db.studentbook.insert([
+{_id:"stu001",name:"Tom",books:["Hadoop","Java","NoSQL"]},
+{_id:"stu002",name:"Mary",books:["C++","Java","Oracle"]},
+{_id:"stu003",name:"Mike",books:["Java","MySQL","PHP"]},
+{_id:"stu004",name:"Jerry",books:["Hadoop","Spark","Java"]},
+{_id:"stu005",name:"Jone",books:["C","Python"]}
+])
+
+db.studentbook1.insertMany([
+{_id:"stu001",name:"Tome",books:[{"bookname":"Hadoop", quantity:2},{"bookname":"Java", quantity:3},{"bookname":"NoSQL", quantity:4}]},
+{_id:"stu002",name:"Mary",books:[{"bookname":"C++", quantity:4},   {"bookname":"Java", quantity:3},{"bookname":"Oracle", quantity:5}]},
+{_id:"stu003",name:"Mike",books:[{"bookname":"Java", quantity:4},  {"bookname":"MySQL", quantity:1},{"bookname":"PHP", quantity:1}]},
+{_id:"stu004",name:"Jone",books:[{"bookname":"Hadoop", quantity:3},{"bookname":"Spark", quantity:2},{"bookname":"Java", quantity:4}]},
+{_id:"stu005",name:"Jane",books:[{"bookname":"C", quantity:1},     {"bookname":"Python", quantity:5}]}])
+
+db.student3.insertMany([
+   { _id: 1,name:"Tom",age:null },
+   { _id: 2,name:"Mary"}
+])
+
+db.myaddress.insert({"address" : "南京 禄口国际机场","loc" : { "type": "Point", "coordinates": [118.783799,31.979234]}})
+db.myaddress.insert({"address" : "南京 浦口公园",    "loc" : { "type": "Point", "coordinates": [118.639523,32.070078]}})
+db.myaddress.insert({"address" : "南京 火车站",      "loc" : { "type": "Point", "coordinates": [118.803032,32.09248]}})
+db.myaddress.insert({"address" : "南京 新街口",      "loc" : { "type": "Point", "coordinates": [118.790611,32.047616]}})
+db.myaddress.insert({"address" : "南京 张府园",      "loc" : { "type": "Point", "coordinates": [118.790427,32.03722]}})
+db.myaddress.insert({"address" : "南京 三山街",      "loc" : { "type": "Point", "coordinates": [118.788135,32.029064]}})
+db.myaddress.insert({"address" : "南京 中华门",      "loc" : { "type": "Point", "coordinates": [118.781161,32.013023]}})
+db.myaddress.insert({"address" : "南京 安德门",      "loc" : { "type": "Point", "coordinates": [118.768964,31.99646]}})
+
+db.stores.insert(
+   [ { _id: 1, name: "Java Hut", description: "Coffee and cakes" },
+     { _id: 2, name: "Burger Buns", description: "Gourmet hamburgers" },
+     { _id: 3, name: "Coffee Shop", description: "Just coffee" },
+     { _id: 4, name: "Clothes Clothes Clothes", description: "Discount clothing" },
+     { _id: 5, name: "Java Shopping", description: "Indonesian goods" },
+     { _id: 6, name: "Java Club", description: "Coffee and cakes 蛋糕" }
+   ]
+)
+
+db.books.insert(
+   [
+     { _id: 1, subject: "Java Book",  quantity: 50 },
+     { _id: 2, subject: "Hadoop Book", quantity: 5 },
+     { _id: 3, subject: "Oracle Book", quantity: 90  },
+     { _id: 4, subject: "Java Book",  quantity: 100 },
+     { _id: 5, subject: "Java Book", quantity: 200 },
+     { _id: 6, subject: "Hadoop Book", quantity: 80 },
+     { _id: 7, subject: "PHP Book", quantity: 10 },
+     { _id: 8, subject: "Spark Book",  quantity: 10 }
+   ]
+)
