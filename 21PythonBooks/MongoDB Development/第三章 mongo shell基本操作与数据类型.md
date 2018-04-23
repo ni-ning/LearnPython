@@ -71,5 +71,6 @@
         { "_id" : 4, "val" : NumberLong(10), "description" : "Long" }
         { "_id" : 5, "val" : NumberDecimal("10.0"), "description" : "Decimal" }
 
-### 5. 使用MongoDB Web的控制台：需要在启动MongoDB的时候，指定参数 --httpinterface
-        社区版没有该选项
+### 5. 使用MongoDB Web的控制台
+需要在启动MongoDB的时候，指定参数 --httpinterface  
+实际测试没找到该选项
