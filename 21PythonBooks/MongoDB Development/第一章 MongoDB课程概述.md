@@ -50,4 +50,5 @@
 
 注：坚持阅读官方文档
 
-https://docs.mongodb.com/manual/
+* [官方手册](https://docs.mongodb.com/manual/)
+* [Mongo中文文档](http://www.mongodb.org.cn/)

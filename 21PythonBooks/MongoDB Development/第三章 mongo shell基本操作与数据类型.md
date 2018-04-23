@@ -1,16 +1,17 @@
 ### 1. 启动 mongo shell
-启动：mongo
-参数：--username 用户名
-      --password 密码
-      --host
-      --port
-简写的方式： mongo -u *** -p *** -host *** -port ***
-帮助信息： mongo --help
+* 启动：mongo
+* 参数：  
+--username 用户名  
+--password 密码  
+--host  
+--port  
+简写的方式： mongo -u *** -p *** -host *** -port ***  
+帮助信息： mongo --help  
 可以在mongo shell中使用外部的编辑器: vim
-    (*) 设置环境变量 export EDITOR=vim
-    (*) mongo shell中定义 function myFunction(){}
-    (*) edit myFunction  进入vim编辑器，编辑，保存，退出
-    (*) mongo shell中执行 myFunction()
+    1.  设置环境变量 export EDITOR=vim
+    2.  mongo shell中定义 function myFunction(){}
+    3.  edit myFunction  进入vim编辑器，编辑，保存，退出
+    4.  mongo shell中执行 myFunction()
 
 ### 2. mongo shell启动配置文件(shell, not mongod)
     (*) 在当前用户的家目录下： ~/.mongorc.js
