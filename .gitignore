@@ -1,0 +1,59 @@
+*.log
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Other version control
+.svn
+
+# temp files
+**#
+**~
+*.bak
+
+# swap files
+*.swp
+*.orig
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+__pycache__
+node_modules
+develop-eggs
+.installed.cfg
+lib
+lib64
+.venv
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Project related
+*migrations*
+media
+venv
+debug/
+.idea/
+.vscode/
+.pylintrc
