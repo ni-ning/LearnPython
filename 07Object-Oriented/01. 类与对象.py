@@ -48,7 +48,7 @@ print(p2.country)  # 类名称空间中的country
 p1.talk()   # Chinese.talk(p1)
 p2.talk()   # Chinese.talk(p2)
 
-# 与之对比 类调用方法 Chinese.talk("123")
+# 与之对比 类调用方法 Chinese.talk(p1, "123")
 
 
 

@@ -42,7 +42,7 @@ print(isinstance(peo1, Animal))
 print(isinstance(pig1, Animal))
 print(isinstance(dog1, Animal))
 
-# 继承反映的是一种什么时什么的关系
+# 继承反映的是一种什么是什么的关系
 
 # 组合也可以解决代码冗余问题，但是组合反映的是一种什么有什么的关系
 

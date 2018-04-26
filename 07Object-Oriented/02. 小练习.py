@@ -37,7 +37,7 @@ class Student:
         self.name = name
         self.age = age
 
-    # 体会可扩展性的强大，加一个功能立刻反应到所有对象上
+    # 体会可扩展性的强大，加一个功
     def walk(self):
         print('%s is walking' % self.name)
 
