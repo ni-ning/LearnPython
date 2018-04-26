@@ -2,11 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/22Util/api.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01AboutPython/.idea/01AboutPython.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01AboutPython/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01AboutPython/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01AboutPython/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01AboutPython/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02DataStructure/.idea/02DataStructure.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02DataStructure/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02DataStructure/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02DataStructure/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02DataStructure/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02DataStructure/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03EncodingAndFile/.idea/03EncodingAndFile.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03EncodingAndFile/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03EncodingAndFile/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03EncodingAndFile/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03EncodingAndFile/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03EncodingAndFile/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04Function/.idea/04Function.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04Function/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04Function/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04Function/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04Function/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04Function/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06CommonModules/.idea/06CommonModules.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06CommonModules/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06CommonModules/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06CommonModules/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06CommonModules/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06CommonModules/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07Object-Oriented/.idea/07Object-Oriented.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07Object-Oriented/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07Object-Oriented/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07Object-Oriented/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07Object-Oriented/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07Object-Oriented/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/08Socket/.idea/08Socket.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/08Socket/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/08Socket/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/08Socket/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/08Socket/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/08Socket/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10Process/.idea/10Process.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10Process/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10Process/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10Process/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10Process/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10Process/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12IOMultiplexing/.idea/12IOMultiplexing.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12IOMultiplexing/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12IOMultiplexing/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12IOMultiplexing/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12IOMultiplexing/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12IOMultiplexing/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13Paramiko/.idea/13Paramiko.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13Paramiko/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13Paramiko/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13Paramiko/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13Paramiko/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13Paramiko/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/.idea/15MySQL.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15MySQL/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07Object-Oriented/01. 类与对象.py" afterPath="$PROJECT_DIR$/07Object-Oriented/01. 类与对象.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07Object-Oriented/02. 小练习.py" afterPath="$PROJECT_DIR$/07Object-Oriented/02. 小练习.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07Object-Oriented/04. 组合.py" afterPath="$PROJECT_DIR$/07Object-Oriented/04. 组合.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +102,7 @@
     <SUITE FILE_PATH="coverage/s17$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1508759229775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/张兴宇/calculator/calculator" />
     <SUITE FILE_PATH="coverage/s17$1.coverage" NAME="客户端1 Coverage Results" MODIFIED="1516542657634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/并发实例Socket" />
     <SUITE FILE_PATH="coverage/s17$text.coverage" NAME="text Coverage Results" MODIFIED="1517126716290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading/多线程模拟文本编辑器" />
-    <SUITE FILE_PATH="coverage/LearnPython$03_.coverage" NAME="03 给函数参数增加元信息 Coverage Results" MODIFIED="1516605830955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
+    <SUITE FILE_PATH="coverage/LearnPython$03_.coverage" NAME="03 让对象支持上下文管理协议 Coverage Results" MODIFIED="1524739481862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
     <SUITE FILE_PATH="coverage/s17$test__4_.coverage" NAME="test (4) Coverage Results" MODIFIED="1511090975877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
     <SUITE FILE_PATH="coverage/LearnPython$3.coverage" NAME="客户端3 Coverage Results" MODIFIED="1516791732985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
     <SUITE FILE_PATH="coverage/s17$04___.coverage" NAME="04.  实现迭代器协议 Coverage Results" MODIFIED="1512826077004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07Object-Oriented/面向对象进阶" />
@@ -75,8 +136,8 @@
     <SUITE FILE_PATH="coverage/s17$test.coverage" NAME="test Coverage Results" MODIFIED="1520168728215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15MySQL" />
     <SUITE FILE_PATH="coverage/LearnPython$05sys.coverage" NAME="05sys模块 Coverage Results" MODIFIED="1514018088160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06CommonModules" />
     <SUITE FILE_PATH="coverage/s17$03___join.coverage" NAME="03. 多进程-主进程调用join Coverage Results" MODIFIED="1516538001880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
-    <SUITE FILE_PATH="coverage/LearnPython$01_.coverage" NAME="01 可接受任意数量参数的函数 Coverage Results" MODIFIED="1516604604778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
     <SUITE FILE_PATH="coverage/LearnPython$5.coverage" NAME="客户端5 Coverage Results" MODIFIED="1516791677244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
+    <SUITE FILE_PATH="coverage/LearnPython$01_.coverage" NAME="01 改变对象的字符串显示 Coverage Results" MODIFIED="1524737216925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
     <SUITE FILE_PATH="coverage/s17$01__.coverage" NAME="01. 多线程 Coverage Results" MODIFIED="1517124549559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11Threading" />
     <SUITE FILE_PATH="coverage/s17$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1508758147326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/作业批改/王玥/购物车" />
     <SUITE FILE_PATH="coverage/LearnPython$08____05_JoinableQueue.coverage" NAME="08. 多进程-进程间通信-生产者消费者05-JoinableQueue Coverage Results" MODIFIED="1516767323985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
@@ -86,31 +147,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="aggregate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/22Util/aggregate.py">
+      <file leaf-file-name="03 让对象支持上下文管理协议.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3426">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/22Util/api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exceptions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/22Util/exceptions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -137,8 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10Process/08. 多进程-进程间通信-生产者消费者01-消费者阻塞等待队列数据.py" />
-        <option value="$PROJECT_DIR$/10Process/并发实例Socket/服务端.py" />
         <option value="$PROJECT_DIR$/10Process/并发实例Socket/客户端4.py" />
         <option value="$PROJECT_DIR$/10Process/并发实例Socket/客户端3.py" />
         <option value="$PROJECT_DIR$/10Process/db.txt" />
@@ -188,6 +227,8 @@
         <option value="$PROJECT_DIR$/07Object-Oriented/04. 组合.py" />
         <option value="$PROJECT_DIR$/07Object-Oriented/01. 类与对象.py" />
         <option value="$PROJECT_DIR$/22Util/api.py" />
+        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py" />
+        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py" />
       </list>
     </option>
   </component>
@@ -232,6 +273,29 @@
             <path>
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="08Socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="21PythonBooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="21PythonBooks" type="462c0819:PsiDirectoryNode" />
+              <item name="CookBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="21PythonBooks" type="462c0819:PsiDirectoryNode" />
+              <item name="CookBook" type="462c0819:PsiDirectoryNode" />
+              <item name="08类与对象" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="22Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -244,7 +308,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hostsed-master" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
@@ -274,21 +338,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api">
-    <configuration name="03. 线程的其他方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.03 让对象支持上下文管理协议">
+    <configuration name="01 改变对象的字符串显示" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11Threading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="s17" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11Threading/03. 线程的其他方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="03 让对象支持上下文管理协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s17" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -560,38 +642,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15MySQL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="s17" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15MySQL/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03. 线程的其他方法" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.aggregate" />
-      <item index="4" class="java.lang.String" itemvalue="Python.api" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.aggregate" />
+      <item index="2" class="java.lang.String" itemvalue="Python.api" />
+      <item index="3" class="java.lang.String" itemvalue="Python.01 改变对象的字符串显示" />
+      <item index="4" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.api" />
-        <item index="1" class="java.lang.String" itemvalue="Python.aggregate" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.03. 线程的其他方法" />
+        <item index="0" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
+        <item index="1" class="java.lang.String" itemvalue="Python.01 改变对象的字符串显示" />
+        <item index="2" class="java.lang.String" itemvalue="Python.api" />
+        <item index="3" class="java.lang.String" itemvalue="Python.aggregate" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -628,7 +692,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281787" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19932432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.268018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -664,20 +728,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11Threading/note2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11Threading/多线程模拟文本编辑器/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11Threading/01. 开启多线程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -722,16 +772,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/test.py" />
     <entry file="file://$PROJECT_DIR$/15MySQL/wang" />
-    <entry file="file://$PROJECT_DIR$/15MySQL/docs/01MySQL概述与安装.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-740">
-            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/docs/02初识SQL.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1054,9 +1094,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/22Util/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/22Util/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
+        <state relative-caret-position="720">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
@@ -1064,16 +1112,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/22Util/aggregate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3426">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="2480">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="213" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/22Util/api.py">
+    <entry file="file://$PROJECT_DIR$/15MySQL/docs/01MySQL概述与安装.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-700">
+            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
