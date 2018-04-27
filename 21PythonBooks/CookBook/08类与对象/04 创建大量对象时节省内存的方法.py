@@ -28,3 +28,4 @@ Python的很多特性都依赖于普通的基于字典的实现
 
 d = Date(2018, 4, 27)
 # d.x = 1  抛异常
+# print(d.__dict__) # 抛异常，'Date' object has no attribute '__dict__'
