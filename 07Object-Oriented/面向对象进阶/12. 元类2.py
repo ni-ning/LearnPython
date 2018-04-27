@@ -28,7 +28,7 @@ class Chinese(object, metaclass=Mymeta):
     # Mymeat.__init__(Chinese,'Chinese',(object,),{})
     x = 1
 
-    def __int__(self, name, age):  # 仅仅只是初始化操作
+    def __init__(self, name, age):  # 仅仅只是初始化操作
         self.name = name
         self.age = age
 

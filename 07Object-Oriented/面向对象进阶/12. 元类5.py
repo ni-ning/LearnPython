@@ -4,7 +4,7 @@
 # email:nining1314@gmail.com
 
 
-class Mymyta(type):
+class Mymeta(type):
     def __call__(self, *args, **kwargs):  # self=Foo,args=('Linda',),kwargs={'age':18}
 
         # 调用__new__ 制造对象
@@ -19,9 +19,9 @@ class Mymyta(type):
         return obj
 
 
-class Foo(metaclass=Mymyta):  # Foo=Mymeta('Foo', (object,), {})
+class Foo(metaclass=Mymeta):  # Foo=Mymeta('Foo', (object,), {})
     def __init__(self, name, age):
-        self.name = age
+        self.name = name
         self.age = age
 
     def __new__(cls, *args, **kwargs):

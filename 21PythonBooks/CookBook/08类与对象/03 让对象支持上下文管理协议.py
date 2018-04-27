@@ -8,10 +8,10 @@ from socket import socket, AF_INET, SOCK_STREAM
 
 
 class LazyConnection(object):
-    def __init__(self, address, family=AF_INET, type=SOCK_STREAM):
+    def __init__(self, address, family=AF_INET, type_=SOCK_STREAM):
         self.address = address
         self.family = family
-        self.type = type
+        self.type = type_
         self.sock = None
 
     def __enter__(self):
@@ -37,7 +37,7 @@ with conn as s:
     s.send(b'Host: www.python.org\r\n')
     s.send(b'\r\n')
     resp = b''.join(iter(partial(s.recv, 8192), b''))
-    # print(resp)
+    print(resp.decode('utf-8'))
 
 """
 当出现with语句的时候，对象的__enter__()方法触发，它返回值(如果有)会被赋值给as声明的变量
@@ -59,6 +59,7 @@ class LazyConnection:
         sock = socket(self.family, self.type)
         sock.connect(self.address)
         self.connections.append(sock)
+        return sock
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.connections.pop().close()
