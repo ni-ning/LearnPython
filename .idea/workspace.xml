@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/11 简化数据结构的初始化.py" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/11 简化数据结构的初始化.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +28,7 @@
     <SUITE FILE_PATH="coverage/s17$c.coverage" NAME="c Coverage Results" MODIFIED="1516511642175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象01-客户端一直发 服务端一次收" />
     <SUITE FILE_PATH="coverage/LearnPython$07_.coverage" NAME="07 调用父类方法 Coverage Results" MODIFIED="1524886522385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
     <SUITE FILE_PATH="coverage/LearnPython$07____1_.coverage" NAME="07.多进程-共享打印终端 (1) Coverage Results" MODIFIED="1516602988367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
+    <SUITE FILE_PATH="coverage/LearnPython$11_.coverage" NAME="11 简化数据结构的初始化 Coverage Results" MODIFIED="1524900919256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
     <SUITE FILE_PATH="coverage/s17$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511090453193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
     <SUITE FILE_PATH="coverage/s17$s.coverage" NAME="s Coverage Results" MODIFIED="1516511640786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象01-客户端一直发 服务端一次收" />
     <SUITE FILE_PATH="coverage/LearnPython$1.coverage" NAME="客户端1 Coverage Results" MODIFIED="1516791669530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
@@ -83,61 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03 让对象支持上下文管理协议.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py">
+      <file leaf-file-name="11 简化数据结构的初始化.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/11 简化数据结构的初始化.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01 改变对象的字符串显示.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07 调用父类方法.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="140" column="3" lean-forward="true" selection-start-line="140" selection-start-column="3" selection-end-line="140" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05 在类中封装属性名.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/05 在类中封装属性名.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04 创建大量对象时节省内存的方法.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/04 创建大量对象时节省内存的方法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06 创建可管理的属性.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="474">
+              <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -164,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10Process/进程池/进程池之回调函数.py" />
         <option value="$PROJECT_DIR$/10Process/进程池/进程池之模拟爬虫.py" />
         <option value="$PROJECT_DIR$/10Process/note" />
         <option value="$PROJECT_DIR$/11Threading/note" />
@@ -215,6 +164,7 @@
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py" />
+        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/11 简化数据结构的初始化.py" />
       </list>
     </option>
   </component>
@@ -319,25 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07 调用父类方法">
-    <configuration name="03 让对象支持上下文管理协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="s17" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.11 简化数据结构的初始化">
     <configuration name="04 创建大量对象时节省内存的方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,6 +338,24 @@
       <module name="s17" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="11 简化数据结构的初始化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s17" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/11 简化数据结构的初始化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -624,19 +574,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
-      <item index="1" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
-      <item index="2" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
-      <item index="3" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
-      <item index="4" class="java.lang.String" itemvalue="Python.07 调用父类方法" />
+      <item index="0" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
+      <item index="1" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
+      <item index="2" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
+      <item index="3" class="java.lang.String" itemvalue="Python.07 调用父类方法" />
+      <item index="4" class="java.lang.String" itemvalue="Python.11 简化数据结构的初始化" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.07 调用父类方法" />
-        <item index="1" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
-        <item index="2" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
-        <item index="3" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
-        <item index="4" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
+        <item index="0" class="java.lang.String" itemvalue="Python.11 简化数据结构的初始化" />
+        <item index="1" class="java.lang.String" itemvalue="Python.07 调用父类方法" />
+        <item index="2" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
+        <item index="3" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
+        <item index="4" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +623,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281787" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2635135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -709,7 +659,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/15MySQL/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1114,8 +1063,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="140" column="3" lean-forward="true" selection-start-line="140" selection-start-column="3" selection-end-line="140" selection-end-column="3" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/11 简化数据结构的初始化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
           <folding />
         </state>
       </provider>
