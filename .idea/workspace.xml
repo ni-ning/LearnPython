@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e80984-ea2a-47bd-aeff-98bb93a236d6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py" afterPath="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +27,7 @@
     <SUITE FILE_PATH="coverage/s17$test03.coverage" NAME="test03 Coverage Results" MODIFIED="1511092093338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包" />
     <SUITE FILE_PATH="coverage/LearnPython$6.coverage" NAME="客户端6 Coverage Results" MODIFIED="1516791679003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process/进程池" />
     <SUITE FILE_PATH="coverage/s17$c.coverage" NAME="c Coverage Results" MODIFIED="1516511642175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象01-客户端一直发 服务端一次收" />
-    <SUITE FILE_PATH="coverage/LearnPython$07_.coverage" NAME="07 匿名函数捕获变量值 Coverage Results" MODIFIED="1516610318313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/07函数" />
+    <SUITE FILE_PATH="coverage/LearnPython$07_.coverage" NAME="07 调用父类方法 Coverage Results" MODIFIED="1524886522385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
     <SUITE FILE_PATH="coverage/LearnPython$07____1_.coverage" NAME="07.多进程-共享打印终端 (1) Coverage Results" MODIFIED="1516602988367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Process" />
     <SUITE FILE_PATH="coverage/s17$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511090453193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05Import/04包/glance" />
     <SUITE FILE_PATH="coverage/s17$s.coverage" NAME="s Coverage Results" MODIFIED="1516511640786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08Socket/黏包现象01-客户端一直发 服务端一次收" />
@@ -85,8 +86,28 @@
       <file leaf-file-name="03 让对象支持上下文管理协议.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01 改变对象的字符串显示.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07 调用父类方法.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="140" column="3" lean-forward="true" selection-start-line="140" selection-start-column="3" selection-end-line="140" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -95,8 +116,8 @@
       <file leaf-file-name="05 在类中封装属性名.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/05 在类中封装属性名.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="920">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06 创建可管理的属性.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="06 创建可管理的属性.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="25" selection-end-column="55" />
+            <state relative-caret-position="840">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -143,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10Process/进程池/服务端.py" />
         <option value="$PROJECT_DIR$/10Process/进程池/进程池之回调函数.py" />
         <option value="$PROJECT_DIR$/10Process/进程池/进程池之模拟爬虫.py" />
         <option value="$PROJECT_DIR$/10Process/note" />
@@ -187,13 +207,14 @@
         <option value="$PROJECT_DIR$/07Object-Oriented/04. 组合.py" />
         <option value="$PROJECT_DIR$/07Object-Oriented/01. 类与对象.py" />
         <option value="$PROJECT_DIR$/22Util/api.py" />
-        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py" />
         <option value="$PROJECT_DIR$/07Object-Oriented/面向对象进阶/12. 元类2.py" />
         <option value="$PROJECT_DIR$/07Object-Oriented/面向对象进阶/12. 元类5.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/05 在类中封装属性名.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/04 创建大量对象时节省内存的方法.py" />
         <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py" />
+        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py" />
+        <option value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py" />
       </list>
     </option>
   </component>
@@ -227,6 +248,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,14 +284,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/CommonSense" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
@@ -298,25 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.06 创建可管理的属性">
-    <configuration name="01 改变对象的字符串显示" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="s17" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.07 调用父类方法">
     <configuration name="03 让对象支持上下文管理协议" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,6 +388,24 @@
       <module name="s17" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="07 调用父类方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s17" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -603,19 +624,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.01 改变对象的字符串显示" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
-      <item index="3" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
-      <item index="4" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
+      <item index="0" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
+      <item index="1" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
+      <item index="2" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
+      <item index="3" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
+      <item index="4" class="java.lang.String" itemvalue="Python.07 调用父类方法" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
-        <item index="1" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
-        <item index="2" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
-        <item index="4" class="java.lang.String" itemvalue="Python.01 改变对象的字符串显示" />
+        <item index="0" class="java.lang.String" itemvalue="Python.07 调用父类方法" />
+        <item index="1" class="java.lang.String" itemvalue="Python.06 创建可管理的属性" />
+        <item index="2" class="java.lang.String" itemvalue="Python.04 创建大量对象时节省内存的方法" />
+        <item index="3" class="java.lang.String" itemvalue="Python.05 在类中封装属性名" />
+        <item index="4" class="java.lang.String" itemvalue="Python.03 让对象支持上下文管理协议" />
       </list>
     </recent_temporary>
   </component>
@@ -648,11 +669,11 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17788461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18002136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281787" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13626125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -688,16 +709,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/15MySQL/docs/02初识SQL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-46">
-            <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -720,17 +731,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/docs/03表操作.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2920">
             <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -745,17 +756,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15MySQL/docs/04数据操作-单表查询.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="572">
             <caret line="181" column="4" lean-forward="true" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -778,6 +789,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第1章 MongoDB简介.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="380">
@@ -786,24 +802,19 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/21PythonBooks/MongoDB-The Definitive Guide/第2章 MongoDB基础知识.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2540">
+          <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="794">
             <caret line="149" column="38" lean-forward="true" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2540">
-          <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1018,19 +1029,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/2111052070/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="265" column="8" lean-forward="true" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07Object-Oriented/面向对象进阶/12. 元类5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,30 +1061,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/05 在类中封装属性名.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="920">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1100,8 +1082,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/06 创建可管理的属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="25" selection-end-column="55" />
+        <state relative-caret-position="840">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/03 让对象支持上下文管理协议.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/2111052070/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="5536" column="13" lean-forward="false" selection-start-line="5536" selection-start-column="4" selection-end-line="5536" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/01 改变对象的字符串显示.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21PythonBooks/CookBook/08类与对象/07 调用父类方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="140" column="3" lean-forward="true" selection-start-line="140" selection-start-column="3" selection-end-line="140" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -39,3 +39,6 @@ del p.last_name
 print(p.__dict__)
 
 # property的一个关键特征是它看上去跟普通的attribute没什么两样，但是访问它的时候会自动触发 getter, setter, deleter
+
+# 一个Python类准备加入到一个基于远程过程调用的大型分布式系统中。
+# 这种情况下，直接使用get/set方法(普通方法调用)而不是property或许会更容易兼容
