@@ -18,6 +18,9 @@ if __name__ == '__main__':
     # t.join()  # 主线程等着子线程结束后再执行
     print(threading.enumerate())      # 当前活跃的线程对象，是一个列表形式
     print(threading.active_count())   # 当前活跃线程数
-    print('主线程',threading.current_thread())             # 当前线程对象
-    print('主线程',threading.current_thread().getName())   # 当前线程名称
+    print('主线程 --> ', threading.current_thread())                # 当前线程对象
+    print('主线程名称 --> ', threading.current_thread().getName())   # 当前线程名称
 
+    """
+    非守护线程 --> 主线程  --> 守护线程
+    """

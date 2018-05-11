@@ -14,6 +14,7 @@ class Work(Thread):
 def work(name):
     print("%s says hello." % name)
 
+
 if __name__ == '__main__':
     # 开启线程2：指定target
     t = Thread(target=work, args=('Linda',))
