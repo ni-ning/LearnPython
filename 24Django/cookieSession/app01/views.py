@@ -1,4 +1,5 @@
 from django.shortcuts import render, HttpResponse
+from django.contrib import auth
 
 
 def login(request):
@@ -28,6 +29,12 @@ def index(request):
     if is_login:
         username = request.COOKIES.get('username')
 
+    # print('测试数据 auth.get_backends ', auth.get_backends())
+    # print('测试数据 auth.get_backends ', type(auth.get_backends()))
+    # print('测试数据 auth.get_user_model ', auth.get_user_model())
+    # print('测试数据 auth.get_user ', auth.get_user(request))
+    # print('测试数据 request.user ', request.user)
+    print('request.session', request.session)
     return render(request, 'index.html', {'username': username})
 
 

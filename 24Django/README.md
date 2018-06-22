@@ -67,11 +67,10 @@ Content-Type: text/html
 
 * 按照HTTP请求协议解析数据
 * 中间专注web业务开发
-* 照 HTTP响应协议封装数据
+* 按照 HTTP响应协议封装数据
 ```
 正确的做法底层代码由专门的服务器软件实现，如TCP连接、HTTP原始请求和响应格式
-所以需要一个统一的接口协议来实现这样的服务器软件，
-们专心用Python编写Web业务，这个接口就是WSGI: Web Server Gateway Interface,
+所以需要一个统一的接口协议来实现这样的服务器软件，我们专心用Python编写Web业务，这个接口就是WSGI: Web Server Gateway Interface,
 而wsgiref模块就是Python基于wsgi协议开发的服务模块
 
 ```
@@ -105,7 +104,7 @@ manage.py           # Django调试工具，调用Shell和数据库
 blog                # 应用相关
   - models.py       # 数据模型
   - views.py        # 视图函数
-template            # HTML文件
+templates           # HTML文件
 ```
 
 
@@ -165,7 +164,7 @@ return redirect(reverse('LOGIN'))
 
 ```
 请求首行
-请求头部字段 Content-Type  --> 决定请求体以什么格式分装数据
+请求头部字段 Content-Type  --> 决定请求体以什么格式封装数据
 
 请求体
 
@@ -228,7 +227,7 @@ path = '/index' 指定特定路径有效
 response.set_cookie('is_login', True, max_age=3000)
 response.set_cookie('username', user, expires=datetime.datetime(2019, 5, 1))
 response.set_cookie('username', user, path='/index')
-response.delete_cookie('usernaem')
+response.delete_cookie('username')
 ```
 
 

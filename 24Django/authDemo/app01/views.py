@@ -3,6 +3,7 @@ from django.contrib import auth
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 
+
 def login(request):
     if request.method == "POST":
         username = request.POST.get('user')
@@ -27,10 +28,8 @@ def logout(request):
 
 
 def index(request):
-    print(request.user)
-    print(request.user.id)
-    print(request.user.is_anonymous)
-    print(request.user.is_authenticated)
+    print(request.session.get('_auth_user_hash'))
+    print(request.session.get('_auth_user_backend'))
 
     return render(request, 'index.html')
 

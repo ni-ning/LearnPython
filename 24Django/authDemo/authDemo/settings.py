@@ -25,7 +25,7 @@ SECRET_KEY = 'v)o^g@k5mh+m3t7lne3cg72(2z+#%zcjaej#pom!a5i$tcdz-!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'autoDemo.urls'
+ROOT_URLCONF = 'authDemo.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'autoDemo.wsgi.application'
+WSGI_APPLICATION = 'authDemo.wsgi.application'
 
 
 # Database
