@@ -18,7 +18,7 @@
             db.emp.find()
         (2) 查询职位为经理的员工
             db.emp.find({"job": "MANAGER"})
-        (3) 操作操作 $in和$or
+        (3) 操作符 $in和$or
             查询职位是MANAGER或者CLERK的员工信息
             db.emp.find({"job":{"$in":["MANAGER", "CLERK]}})
             db.emp.find({"$or":[{"job":"MANAGER"},{"job":"CLERK"}]})
@@ -29,8 +29,7 @@
         (1) 查询语文是81分，英语是88分的文档
             db.student2.find({"grade":{"chinese":81, "english":88}})  --> 只匹配只有语文和英语的文档
         (2) 查询语文是81分，数学90分，英语是88分的文档
-            db.student2.find({"grade":{"chinese":81, "math":90, "english":88}}) --> 顺序也要一直
-            
+            db.student2.find({"grade":{"chinese":81, "math":90, "english":88}}) --> 顺序也要一致
             小结：如果是相等查询，保证匹配所有的field，顺序也要一致
         (3) 查询嵌套文档中的一个列：查询数学成绩是82分的文档
             db.student2.find({"grade.math":82})

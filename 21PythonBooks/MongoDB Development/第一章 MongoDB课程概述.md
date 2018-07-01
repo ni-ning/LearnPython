@@ -4,12 +4,16 @@
 2. 各章概述  
 
     见后续
-3. MongoDB简介：文档型的NoSQL，文档型-->BSON文档(json的二进制)
-
+3. MongoDB简介
+    文档型的NoSQL，文档型-->BSON文档(json的二进制)
+    MongoDB是一个基于分布式文件存储的数据库
+    支持的查询语言非常强大
+    
     (1) 保存数据：key-value  
     (2) 一般不支持事务  
     (3) MongoDB适合保存什么样数据？举例：设计一个数据库，来保存电影信息 
     
+    注：NoSQL数据库，如Redis、HBase等
 
 
 ### 第二章 MongoDB的体系结构与安装

@@ -39,7 +39,7 @@
 ### 4. mongo shell数据类型：字符串、整型、布尔值、浮点数、时间
     (1) 日期类型 Date
         Date(): 表示当前时间，插入一个字符串类型，如 Sat Apr 21 2018 11:34:51 GMT+0800 (CST)
-        new Date(): 插入的是isodate类型，表示的是格林威治标准时间，如ISODate("2018-04-21T03:34:59.361Z")
+        new Date(): 插入的是ISODate类型，表示的是格林威治标准时间，如ISODate("2018-04-21T03:34:59.361Z")
         ISODate(): 类似 new Date()，如ISODate("2018-04-21T03:34:59.361Z")
     (2) ObjectId: 当插入数据的时候，自动生成一个字段 "_id" --> 相当于主键，ObjectId("5adab023eedb6b279a2ecb29")
         ObjectId 是一个12字节的BSON类型的字符串，易于分布式
@@ -59,18 +59,24 @@
         (1) 条件：{"val": 9.99}
         { "_id" : 2, "val" : 9.99, "description" : "Double" }
         原因：默认9.99是Double
+        
         (2) 条件：{"val": NumberDecimal("9.99")}
         { "_id" : 1, "val" : NumberDecimal("9.99"), "description" : "Decimal" }
+        
         (3) 条件：{"val": 10}
         { "_id" : 3, "val" : 10, "description" : "Double" }
         { "_id" : 4, "val" : NumberLong(10), "description" : "Long" }
         { "_id" : 5, "val" : NumberDecimal("10.0"), "description" : "Decimal" }
-        原因：对于整数10的匹配，将匹配所有的数据类型是10
+        原因：对于整数10的匹配，将匹配所有的数据类型是10 ***
+        
         (4) 条件：{"val": NumberDecimal("10")}
         { "_id" : 3, "val" : 10, "description" : "Double" }
         { "_id" : 4, "val" : NumberLong(10), "description" : "Long" }
         { "_id" : 5, "val" : NumberDecimal("10.0"), "description" : "Decimal" }
-
+        原因：将匹配所有的数据类型是10
+        
+        总结：比较涉及 值与类型
+        
 ### 5. 使用MongoDB Web的控制台
 需要在启动MongoDB的时候，指定参数 --httpinterface  
 实际测试没找到该选项

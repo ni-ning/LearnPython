@@ -33,7 +33,7 @@ sudo service mongod stop
 ### 2. MongoDB的体系结构
 * 一个MongoDB Server: 实例和多个数据库(1:N)
 * 存储结构
-    1. 逻辑存储结构：数据库(database)、表(collection)、记录(document)
+    1. 逻辑存储结构：数据库(database)、表(collection)、记录(文档document)
     2. 物理存储结构：
         * --dbpath=/data/db 指定数据库存储的位置
         * MongDB的物理存储的文件
@@ -54,7 +54,12 @@ sudo service mongod stop
     3. 注意：
         * 从3.2版本后，MongoDB的默认的数据引擎，wiredTiger
         * 早期版本 内存映射，可以指定参数 --storageEngine=mmapv1
-        * 新版本：数据文件大小从64开始
+        * 新版本：数据文件 0 大小从64M开始
+    
+    4. 创建数据库
+        show dbs
+        use mydemo
+        db.test.insert({"name": "Linda"})   # 自动创建数据库 mydemo
            
                      
                      
