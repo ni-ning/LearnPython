@@ -1,5 +1,15 @@
 from django.shortcuts import render, HttpResponse
 from django.contrib import auth
+from django.conf import settings
+
+
+def index1(request, num):
+    
+    return HttpResponse(num)
+
+
+def index2(request, num):
+    return HttpResponse(num)
 
 
 def login(request):
@@ -23,7 +33,7 @@ def login(request):
 
 
 def index(request):
-    print(request.COOKIES)
+    # print(request.COOKIES)
     is_login = request.COOKIES.get('is_login')
     username = ''
     if is_login:
@@ -34,7 +44,14 @@ def index(request):
     # print('测试数据 auth.get_user_model ', auth.get_user_model())
     # print('测试数据 auth.get_user ', auth.get_user(request))
     # print('测试数据 request.user ', request.user)
-    print('request.session', request.session)
+    
+    print('####################我是测试数据########################')
+    print('req.session.load', request.session.load())
+    print(type(request.session.load()))
+
+    print(request.session.exists('dddddd'))
+    print(request.session.exists('xefsvgo3jjhu4tyxf56qvnbpfhgtcp68'))
+
     return render(request, 'index.html', {'username': username})
 
 
