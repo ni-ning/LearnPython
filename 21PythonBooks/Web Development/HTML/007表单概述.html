@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    姓名: <input type="text" value="Linda" size="20px" maxlength="10"/><br/>
+    年龄：<input type="text" value="19" size="3" maxlength="3"/><br/>
+    密码：<input type="password" value="8" size="3" maxlength="3"/><br/>
+    性别：
+        <input type="radio" name="单选按钮所在组名" value="boy"/> 男
+        <input type="radio" name="单选按钮所在组名" value="girl"/> 女<br/>
+
+    你喜欢的水果：<br/>
+    <input id="fruit0" name="fruit" type="checkbox" checked="checked"/><label for="fruit0">苹果</label><br/>
+    <input id="fruit1" name="fruit" type="checkbox"/><label for="fruit1">香蕉</label><br/>
+    <input id="fruit2" name="fruit" type="checkbox"/><label for="fruit2">凤梨</label><br/>
+
+    <input type="button" value="普通按钮的取值i" onclick="alert('你点击按钮了！')"/><br/>
+    <input type="submit" value="特殊功能的普通按钮，可以将表单的内容提交给服务器"/><br/>
+    <input type="reset" value="特殊功能的普通按钮，可以清除用户在页面表单中输入的信息"/><br/>
+
+    <input type="file"/><br/>
+
+    <textarea rows="10" cols="10">多行文本</textarea><br/>
+
+    <select multiple="multiple" size="3">
+        <option selected="selected" value="选项值 传给后端">HTML</option>
+        <option>CSS</option>
+        <option selected="selected">JavaScript</option>
+        <option>Vue</option>
+        <option>React</option>
+        <option>Python</option>
+    </select>
+</form>
+</body>
+</html>
