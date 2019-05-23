@@ -134,3 +134,58 @@ var obj = JSON.parse('{"name":"小明","age":14}', function (key, value) {
     return value;
 });
 console.log(JSON.stringify(obj)); // {name: '小明同学', age: 14}
+
+// 构造函数来创建对象, new 才行
+// this指向创建的对象, 并默认返回this
+function Student(name) {
+    this.name = name;
+    this.hello = function () {
+        alert('Hello, ' + this.name + '!');
+    }
+}
+
+// 原型链 xiaoming ---> Student.prototype ---> Object.prototype ---> null
+var xiaoming = new Student('小明');
+console.log(xiaoming.name);
+xiaoming.hello();
+
+
+// 用 new Student()创建的对象还从原型上获得了一个constructor属性, 指向函数Student本身
+console.log(xiaoming.constructor === Student.prototype.constructor);
+console.log(Student.prototype.constructor === Student);
+console.log(Object.getPrototypeOf(xiaoming) === Student.prototype);
+console.log(xiaoming instanceof Student);
+
+// 忘记写new怎么办
+// 按照约定, 构造函数首字母应大写, 而普通函数字母应当小写
+function Student1(props) {
+    this.name = props.name || '匿名';
+    this.grade = props.grade || 0;
+}
+// 共享函数 hello
+Student1.prototype.hello = function () {
+    alert('Hello, ' + this.name + '!')
+};
+
+//createStudent函数有几个巨大优点: 一是不需要new来调用, 二是参数非常灵活
+function createStudent(props) {
+    return new Student1(props || {})
+}
+
+var xiaohong = createStudent();
+console.log(xiaohong.name);
+console.log(xiaohong.grade);
+
+// 原型继承
+
+
+// class继承
+class Student3 {
+    constructor (name) {
+        this.name = name;
+    }
+    hello () {
+        alert('Hello, ' + this.name + '!');
+    }
+}
+console.log(new Student3('小小').name);
