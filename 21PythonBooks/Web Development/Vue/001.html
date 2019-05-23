@@ -5,6 +5,10 @@
     <title>Title</title>
     <script src="js/vue.js"></script>
     <script>
+		// 配置是否允许vue-devtools检查代码, 便于调试, 生产环境设置为false
+		// 参考文档 API https://cn.vuejs.org/v2/api/#devtools
+		Vue.config.devtools = true;
+		Vue.config.productionTip = true;
         window.onload = function () {
             var vm = new Vue({
                 el: '#itany',           // 指定关联的元素

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/vue.js"></script>
+		<script>
+			window.onload = function () {
+				new Vue({
+					el: "#itany",
+					data: {
+						name: '',
+						age: 21,
+						flag: true,
+						nums: [1, 2, 3, 4],
+						user: {
+							id: 1111,
+							name: 'alex'
+						}
+					}
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<div id='itany'>
+			用户名: <input type="text" v-model="name"/><br/>
+			{{name}}<br/>
+			{{age}}<br/>
+			{{flag}}<br/>
+			{{nums}}<br/>
+			{{user}}
+		</div>
+	</body>
+</html>

@@ -39,4 +39,31 @@ git clone --branch v2.6.10 https://github.com/vuejs/vue.git
 vue2.0和v1.0相比, 最大的变化就是引入了Virtual DOM(虚拟DOM), 页面更新效率更高, 速度更快
 
 ### 2. Hello World
+```
+<script>
+	window.onload = function () {
+		var vm = new Vue({
+			el: '#itany',           // 指定关联的元素
+			data: {                 // 存储数据
+				msg: 'Hello World',
+				name: 'tom'
+			}
+		})
+	};
+</script>
+<div id="itany">
+	{{ msg }} <!-- 两对大括号{{}} 称之为模板, 用来就行数据的绑定显示在页面中 -->
+</div>
+	
+```
 
+### 3. 安装 vue-devtools插件, 便于在chrome中调试
+
+
+## 三、常用指令
+
+### 1. 什么是指令
+用来扩展html标签的功能
+### 2. vue中常用的指令
++ v-model
+  双向数据绑定, 一般用于表单元素
