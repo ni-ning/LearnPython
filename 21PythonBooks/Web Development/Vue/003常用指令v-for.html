@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>v-for</title>
+		<script src="js/vue.js"></script>
+		<script>
+			window.onload = function () {
+				new Vue({
+					el: "#itany",
+					data: {
+						arr: [1, 2, 3],
+						user: {id: 1000, name: "唐伯虎", age:20},
+						arr_dup: [12, 1, 2, 3, 12],
+						users: [
+							{id: 1000, name: "唐伯虎", age:20},
+							{id: 1001, name: "秋香", age:21},
+							{id: 1002, name: "青龙", age:22},
+							{id: 1003, name: "朱雀", age:23}
+						]
+					}
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<div id="itany">
+			<p>直接输出</p>
+			{{arr}}
+			
+			<p>循环数组</p>
+			<ul>
+				<li v-for="value in arr">{{value}}</li>
+			</ul>
+			
+			<p>循环对象值</p>
+			<ul>
+				<li v-for="value in user">{{value}}</li>
+			</ul>
+			
+			<p>循环k, v</p>
+			<ul>
+				<li v-for="(v, k) in user">{{k}}={{v}}</li>
+			</ul>
+			
+			<p>数组有重复值</p>
+			<!-- 可以循环重复的集合, 并通过指定:key属性唯一key, 当更新元素时可重用元素, 提高效率 -->
+			<ul>
+				<li v-for="(v, k) in arr_dup" :key="k">{{v}}</li>
+			</ul>
+			
+			<p>循环对象数组</p>
+			<ul>
+				<li v-for="(user, index) in users"> {{index + 1}} {{user.id}} {{user.name}} {{user.age}}</li>
+			</ul>
+			
+		</div>
+	</body>
+</html>
