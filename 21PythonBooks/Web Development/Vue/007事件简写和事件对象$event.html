@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件简写和事件对象</title>
+    <script src="js/vue.js"></script>
+    <script>
+		Vue.config.devtools = true;
+		Vue.config.productionTip = true;
+        window.onload = function () {
+            var vm = new Vue({
+                el: '#itany',
+				data: {},
+				methods: {
+					show(){console.log(666);},
+					print(e){
+						console.log(e);
+						
+						// e.target DOM对象
+						console.log(e.target.innerHTML);
+						// Vue实例 vm
+						console.log(this);
+					}
+				}
+				
+            })
+        };
+    </script>
+</head>
+<body>
+    <div id="itany">
+        <button @click="show">点我</button>
+		<hr/>
+		<button @click="print($event)">Click Me</button>
+    </div>
+</body>
+</html>
