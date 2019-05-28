@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>事件简写和事件对象</title>
     <script src="js/vue.js"></script>
+	<link rel="stylesheet" href="bootstrap/bootstrap.css" />
     <script>
 		Vue.config.devtools = true;
 		Vue.config.productionTip = true;
@@ -28,10 +29,10 @@
     </script>
 </head>
 <body>
-    <div id="itany">
-        <button @click="show">点我</button>
+    <div id="itany" class="container">
+        <button @click="show" class="btn btn-primary">点我</button>
 		<hr/>
-		<button @click="print($event)">Click Me</button>
+		<button @click="print($event)" class="btn btn-primary">Click Me</button>
     </div>
 </body>
 </html>

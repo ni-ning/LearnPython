@@ -94,6 +94,56 @@ v-on:click="" 简写方式 @click=""
 #### 1.3 事件冒泡
 阻止事件冒泡
 + a) 原生js, 依赖事件对象
++ b) vue方式，不依赖事件对象 @click.stop
 
 
 #### 1.4 事件默认行为
+阻止事件默认行为
++ a) 原生js, 依赖事件对象
++ b) vue方式，不依赖事件对象 @click.prevent
+
+#### 1.5 键盘事件
+@keydown、@keypress、@keyup  
+
+回车: @keydown.13 或 @keydown.enter  
+上: @keydown.38 或 @keydown.up
+
+vue 2.x 默认没有@keydown.a/.b/.c  自定义键位别名
+```
+Vue.config.keyCodes = {
+	a: 65,
+	f1: 112
+}
+```
+
+#### 1.6 键盘修饰符
+```
+.stop - 调用 event.stopPropagation()。
+.prevent - 调用 event.preventDefault()。
+.{keyCode | keyAlias} - 只当事件是从特定键触发时才触发回调。
+.native - 监听组件根元素的原生事件。
+.once - 只触发一次回调。
+```
+
+### 2. 属性
+#### 2.1 属性的绑定和简写
+v-bind 用户属性绑定, v-bind:属性=""  
+
+属性的简写: v-bind:src="" 简写为:src=""
+
+#### 2.2 class和style
+绑定class和style属性时语法比较复杂
+
+:class="{aa: true, bbb: true}"  
+:sytle="val"   val: {fontSize: 100}
+
+## 六、模板
+
+### 1. 简介
+Vue.js 是使用基于HTML的模板语法, 可以将DOM绑定到Vue实例中的数据  
+模板就是{{}}，用来进行数据绑定, 显示在页面中, 也称为Mustache
+
+### 2. 数据绑定的方式
+a. 双向绑定 v-model  
+b. 单项绑定  
+   方式1: 使用两对大括号 {{}}, 可能会出现闪烁的问题, 可以使用v-cloak解决

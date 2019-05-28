@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class和style</title>
+    <script src="js/vue.js"></script>
+    <script>
+		Vue.config.devtools = true;
+		Vue.config.productionTip = true;
+        window.onload = function () {
+            var vm = new Vue({
+                el: '#itany',
+                data: {
+                    bb: 'aa',
+					bbb: 'aaa',
+					dddd: {aa: true, aaa:true}
+                }
+            })
+        };
+    </script>
+	<style>
+		.aa{
+			color: red;
+			font-size: 20px;
+		}
+		.aaa{
+			background: #CCCCCC;
+		}
+	</style>
+</head>
+<body>
+    <div id="itany">
+		<!-- 可以访问, 普通css方式 -->
+		<p class="aa">我是段落</p> 
+		 
+		<!-- 不可以, Vue的属性绑定不能直接css样式-->
+		<p :class="aa">我是段落</p>
+		<p :class="bb">方式1: 变量形式</p>
+		<p :class="[bb, bbb]">方式2: 数组形式, 同时引用多个</p>
+		<p :class="{aa: true, aaa: true}">方式3: json形式, 最常用</p>
+		<p :class="dddd">方式4: 变量引用style方式</p>
+    </div>
+</body>
+</html>

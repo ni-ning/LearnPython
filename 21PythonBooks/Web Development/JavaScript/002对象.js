@@ -135,8 +135,55 @@ var obj = JSON.parse('{"name":"小明","age":14}', function (key, value) {
 });
 console.log(JSON.stringify(obj)); // {name: '小明同学', age: 14}
 
-// 构造函数来创建对象, new 才行
-// this指向创建的对象, 并默认返回this
+
+//JavaScript不区分类和实例的概念, 而是通过原型(prototype)来实现面向对象
+var robot = {
+    name: 'Robot',
+    height: 1.6,
+    run: function () {
+        console.log(this.name + ' is running...');
+    }
+};
+
+// robot有点像小明，有名称, 身高, 能跑
+var Student = robot;
+
+var xiaoming = {
+    name: '小明'
+};
+
+// xiaoming的原型指向了Student, 看上去xiaoming仿佛是从Student继承下来
+xiaoming.__proto__ = Student;
+console.log(xiaoming.name);
+xiaoming.run();
+
+var Bird = {
+    fly: function () {
+        console.log(this.name + ' is flying...')
+    }
+};
+
+// 在JavaScript代码运行时期, 可以把xiaoming从Student变成Bird, 或者变成任何对象
+xiaoming.__proto__ = Bird;
+console.log(xiaoming.name);
+xiaoming.fly();
+
+// Object.create(Student) 传入一个原型对象, 并创建一个基于该原型的新对象
+// 但是该新对象什么属性都没有
+
+function createStudent(name) {
+    var s = Object.create(Student);
+    s.name = name;
+    return s;
+}
+var xiaohong = createStudent('小红');
+xiaohong.run();
+console.log(xiaohong.__proto__ === Student);
+// 这是创建原型继承的一种方法，还有其他
+
+
+
+// 构造函数: 除了用{...}创建对象外, JavaScript还可以用构造函数的方法来创建对象
 function Student(name) {
     this.name = name;
     this.hello = function () {
@@ -144,17 +191,39 @@ function Student(name) {
     }
 }
 
-// 原型链 xiaoming ---> Student.prototype ---> Object.prototype ---> null
-var xiaoming = new Student('小明');
-console.log(xiaoming.name);
-xiaoming.hello();
+// 如果不写new, 就是一个普通函数, 返回值 undefined
+// 如果写了new, 它就变成一个构造函数, this指向新创建的对象, 并默认返回this
+var xiaoxiao = new Student('小小');
+console.log(xiaoxiao.name);
+xiaoxiao.hello();
 
+// 用new Student()创建的对象还从原型上获得了一个constructor属性, 它指向函数Student本身
+console.log(xiaoxiao.constructor === Student.prototype.constructor);  // true
+console.log(Student.prototype.constructor === Student);  // true
 
-// 用 new Student()创建的对象还从原型上获得了一个constructor属性, 指向函数Student本身
-console.log(xiaoming.constructor === Student.prototype.constructor);
-console.log(Student.prototype.constructor === Student);
-console.log(Object.getPrototypeOf(xiaoming) === Student.prototype);
-console.log(xiaoming instanceof Student);
+console.log(Object.getPrototypeOf(xiaoxiao) === Student.prototype);  // true
+
+console.log(xiaoxiao instanceof Student);  // true
+
+// 总结
+// Student.prototype 表示 xiaoxiao, xiaoming, xiaohong的原型对象
+// Student.prototype 有个constructor属性, 指向Student函数本身
+// xiaoxiao, xiaoming, xiaohong是没有prototype这个属性
+console.log(xiaoxiao.__proto__ === Student.prototype);  // 非标准用法
+
+// function Student 和 Student = {} 一个表示函数, 一个表示对象
+
+xiaoming = new Student('小明');
+xiaohong = new Student('小红');
+console.log(xiaoming.hello === xiaohong.hello);  // false
+// xiaoming, xiaohong 各自的hello是一个函数, 但它们是两个不同的函数, 虽然函数名称和代码都相同, 如何共享呢?
+// 根据属性的查找规则, 只要把hello函数移动到xiaoming, xiaohong这些对象共同的原型上就可以, 也就是Student.prototype
+function Student(name) {
+    this.name = name;
+}
+Student.prototype.hello = function () {
+    console.log('Hello, ' + this.name + '.')
+};
 
 // 忘记写new怎么办
 // 按照约定, 构造函数首字母应大写, 而普通函数字母应当小写
@@ -176,16 +245,66 @@ var xiaohong = createStudent();
 console.log(xiaohong.name);
 console.log(xiaohong.grade);
 
+
 // 原型继承
+// 定义空构造函数F, new F()中间桥接对象
+function inherits(Child, Parent) {
+    var F = function () {};
+    F.prototype = Parent.prototype;
+    Child.prototype = new F();
+    Child.prototype.constructor = Child;
+}
+
+// props.name || 'else'
+function Student(props) {
+    this.name = props.name || 'Unnamed';
+}
+
+// 原型对象 实现共享函数
+Student.prototype.hello = function () {
+    alert('Hello, ' + this.name + '!');
+};
+
+// Student.call(this, props) 只是构造函数的复用
+function PrimaryStudent(props) {
+    Student.call(this, props);
+    this.grade = props.grade || 1;
+}
+
+// 绑定原型继承链
+inherits(PrimaryStudent, Student);
+
+// 实现自己的共享函数
+PrimaryStudent.prototype.getGrade = function () {
+    return this.grade;
+};
+
+// JavaScript的原型继承实现方式就是：
+// 定义新的构造函数，并在内部用call()调用希望“继承”的构造函数，并绑定this；
+// 借助中间函数F实现原型链继承，最好通过封装的inherits函数完成；
+// 继续在新的构造函数的原型上定义新方法。
 
 
 // class继承
-class Student3 {
-    constructor (name) {
+class Student {
+    constructor(name){
         this.name = name;
     }
-    hello () {
+    hello(){
         alert('Hello, ' + this.name + '!');
     }
 }
-console.log(new Student3('小小').name);
+// class 包含构造函数constructor和定义在原型对象上的函数hello()
+
+class PrimaryStudent extends Student {
+    constructor(name, grade) {
+        super(name);  // super调用父类的构造方法
+        this.grade = grade;
+    }
+    myGrade(){
+        alert('I am at grade ' + this.grade);
+    }
+}
+
+xiaoxiaoming = new PrimaryStudent('小小明', 100);
+xiaoxiaoming.myGrade();

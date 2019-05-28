@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>键盘事件</title>
+    <script src="js/vue.js"></script>
+    <script>
+		// 自定义键盘别名
+		Vue.config.keyCodes = {
+			a: 65
+		}
+        window.onload = function () {
+            var vm = new Vue({
+                el: '#itany',
+				data: {},
+				methods: {
+					show(e){
+						console.log(e.keyCode);
+					},
+					print(e){
+						console.log(e)
+					}
+				}
+				
+            })
+        };
+    </script>
+</head>
+<body>
+    <div id="itany">
+		<div>
+			keyCode: <input type="text" @keydown="show($event)">
+		</div>
+		<div>
+			keydown.enter: <input type="text" @keydown.enter="print($event)">
+		</div>
+		<div>
+			keydown.a: <input type="text" @keydown.a="print($event)">
+		</div>
+    </div>
+</body>
+</html>
