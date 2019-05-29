@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue</title>
+    <script src="../js/vue.js"></script>
+    <script>
+		Vue.config.devtools = true;
+		Vue.config.productionTip = true;
+        window.onload = function () {
+            var vm = new Vue({
+                el: '#itany',
+                data: {
+                    msg: 'Hello World',
+                }
+            })
+        };
+    </script>
+</head>
+<body>
+    <div id="itany">
+		<input type="text" v-model="msg">
+        <h3 v-text="msg"></h3>
+		
+		<h3 v-html="msg"></h3>
+		
+		<h3 v-once>{{msg}}</h3>
+		
+		<h3 v-pre>{{msg}}</h3>
+    </div>
+</body>
+</html>

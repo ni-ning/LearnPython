@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue</title>
+    <script src="../js/vue.js"></script>
+    <script>
+		// 自定义全局过滤器
+		Vue.filter('addZero', function (data){
+			console.log(data);
+			return data<10?'0'+data:data;
+		});
+		Vue.filter('number', (data, n)=> {
+			console.log(data, n);
+			return data.toFixed(n);
+		})
+        window.onload = function () {
+            var vm = new Vue({
+                el: '#itany',
+                data: {
+                    msg: 'Hello World',
+                },
+				filters: {
+					getNumber: (data, n) => {
+						return data.toFixed(n);
+					}
+				}
+            })
+        };
+    </script>
+	<style>
+		[v-cloak]{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+    <div id="itany">
+		<h3 v-cloak> {{ 10 | addZero}}</h3>
+		
+		<h3 v-cloak> {{3.1415926 | number(2)}}</h3>
+		
+		<h3 v-cloak> {{3.1415926 | getNumber(3)}}</h3>
+    </div>
+</body>
+</html>
