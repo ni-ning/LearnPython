@@ -5,6 +5,7 @@
 		<title>发送AJAX请求</title>
 		<script src="../js/vue.js"></script>
 		<script src="../js/axios.js"></script>
+		<script src="../js/vue-resource.js"></script>
 		<script>
 			window.onload = function () {
 				var vm = new Vue({
@@ -44,6 +45,30 @@
 								this.user = resp.data;
 								console.log(this.user.name);
 							});
+						},
+						sendJSONP(){
+							// Vue实例自动绑定$http
+							// https://sug.so.360.cn/suggest?callback=suggest_so&encodein=utf-8&encodeout=utf-8&format=json&fields=word&word=a&huid=10j6Bm1dJu0Ly5OESukE4yyYe4kXT9DLBtvlSTdrtMEvo%3D
+							this.$http.jsonp('https://sug.so.360.cn/suggest', {
+								params: {word: 'a'}
+							}).then(resp=>{
+								console.log(resp)
+								console.log(resp.data.s);
+							}).catch(err=>{
+								console.log(err);
+							});
+						},
+						sendJSONP1(){
+							// Vue实例自动绑定$http
+							// https://www.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=pc&from=pc_web&sugsid=1464,21104,29063,28518,29099,28830,28584,26350,22158&wd=bb&bs=a&csor=2&pwd=b&cb=jQuery1102015382674285462938_1559186485474&_=1559186485500
+							this.$http.jsonp('https://www.baidu.com/sugrec', {
+								params: {wd: 'bb'},
+								jsonp: 'cb'    // 百度使用jsonp参数名cb
+							}).then(resp=>{
+								console.log(resp)
+							}).catch(err=>{
+								console.log(err);
+							});
 						}
 					}
 				})
@@ -62,6 +87,10 @@
 			<button @click="getUserById(uid)">获取指定GitHub账户信息显示</button><br>
 			姓名: {{user.name}}<br>
 			头像: <img :src="user.avatar_url">
+			<p></p>
+			<button @click="sendJSONP">发送360搜索 JSONP请求</button>
+			<p></p>
+			<button @click="sendJSONP1">发送百度搜索 JSONP请求</button>
 		</div>
 	</body>
 </html>

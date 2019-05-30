@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>计算属性</title>
+		<script src="../js/vue.js"></script>
+	</head>
+	<body>
+		<div id='itany'>
+			<!-- 1. 计算属性 -->
+			<h3>{{msg}}</h3>
+			<h3>{{msg2}}</h3>
+			
+			<!-- 对数据处理再显示, 模板中太多逻辑, 不好维护 -->
+			<h3>{{msg.split(' ').reverse().join(' ')}}</h3>
+			
+			<!-- 推荐操作, 数据可以进行逻辑处理操作 -->
+			<h3>{{reverseMsg}}</h3>
+			
+			<button @click="change">修改msg值</button> <br>
+			
+			<!-- 2. 计算属性 vs 方法 -->
+			num1: {{num1}} <br>
+			num2: {{num2}} <br>
+			
+			num2: {{ getNum2()}}
+			<p>
+				<button onclick="fn()">测试</button>
+			</p>
+			
+			<h3>num3: {{num3}}</h3>
+			<button @click="change2">修改num3值</button>
+		</div>
+	</body>
+	<script>
+		var vm = new Vue({
+			el: "#itany",
+			data: {	// 普通属性
+				msg: 'welcome to itany.',
+				num1: 5
+			},
+			computed:{	// 计算属性
+				msg2: function(){  // 该函数必须有返回值, 用来获取属性值, 称为get函数
+					return 'welcome to itany2.';
+				},
+				reverseMsg:function(){
+					// 可以包含逻辑处理操作, 同时reverseMsg依赖msg
+					return this.msg.split(' ').reverse().join(' ');
+				},
+				num2: function(){
+					console.log('calc num2 at ' + new Date().toLocaleString());
+					return this.num1 - 1;
+				},
+				num3: {
+					get: function(){
+						return this.num1 -1;
+					},
+					set: function(value){
+						console.log(value);
+						// 修改依赖num1值
+						this.num1 = value;
+					}
+				}
+			},
+			methods: {
+				change(){
+					this.msg = 'I love you'
+				},
+				getNum2(){
+					console.log('calc getNum2 at ' + new Date().toLocaleString());
+					return this.num1 - 1;
+				},
+				change2(){
+					this.num3 = 9999;
+				}
+			}
+		})
+		
+		function fn () {
+			setInterval(function (){
+				console.log(vm.num2);
+				console.log(vm.getNum2());
+			}, 1000);
+		}
+	</script>
+</html>

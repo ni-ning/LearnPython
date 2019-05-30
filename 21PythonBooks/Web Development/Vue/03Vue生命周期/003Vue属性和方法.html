@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Vue属性和方法</title>
+		<script src="../js/vue.js"></script>
+	</head>
+	<body>
+		<div id='itany'>
+			{{msg}}
+			
+			<h2 ref="hello">你好</h2>
+			<h2 ref="world">世界</h2>
+			
+			<hr>
+			<h2>{{name}}</h2>
+		</div>
+	</body>
+	<script>
+		var vm = new Vue({
+			el: '#itany',
+			data: {
+				msg: 'Hello Vue.',
+				name: 'Tom'
+			},
+			func: function (){
+				console.log('func');
+			},
+			methods:{
+				
+			}
+		});
+		// 属性
+		// vm.属性名 获取data中的属性
+		console.log(vm.msg);
+		
+		// vm.$el 获取vue实例关联的元素
+		console.log(vm.$el);
+		vm.$el.style.color = 'red';
+		
+		// vm.$data 获取数据对象data
+		console.log(vm.$data);		// 简洁方式 vm.属性名
+		
+		// vm.$options 获取options, 包括内置与自定义
+		console.log(vm.$options);
+		console.log(vm.$options.func);
+		
+		// vm.$refs 获取所有添加ref的表填
+		console.log(vm.$refs)			// object
+		console.log(vm.$refs.hello);	// DOM 对象
+		
+		// 方法
+		// vm.$mount() 手动挂载vue实例
+		// vm.$mount('#itany');
+		// new Vue({
+		// 	data:{
+		// 		message: 'Hello'
+		// 	}
+		// }).$mount('#itany');
+		
+		// vm.$destroy()  销毁实例
+		
+		// vm.$nextTrick(callback)
+		
+		
+	</script>
+</html>
