@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义指令</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+    <div id="itany">
+        <!-- <h3 v-hello>{{ msg }}</h3> -->
+		<h3 v-world>{{ msg }}</h3>
+		<button @click="change">修改更新数据</button>
+	</div>
+	<script>
+		Vue.directive('hello', {
+			bind(){
+				// 常用
+				alert('指令第一次绑定到元素上时调用, 只调用一次, 可执行初始化操作');	
+			},
+			inserted(){
+				alert('被绑定的元素插入到DOM中时调用');
+			},
+			update(){
+				alert('被绑定的元素所在模板更新时调用');
+			},
+			componentUpdated(){
+				alert('被绑定元素所在模板完成一次更新周期是调用')
+			},
+			unbind(){
+				alert('指令与元素解除绑定时调用')
+			}
+		});
+		
+		Vue.directive('world', {
+			bind(el, binding){
+				console.log(el);	// 指令所绑定的元素怒
+				
+			}
+		});
+		var vm = new Vue({
+			el: '#itany',           // 指定关联的元素
+			data: {                 // 存储数据
+				msg: 'Hello World.',
+				name: 'tom'
+			},
+			methods: {
+				change(){
+					this.msg = 'Hello Vue.'
+				}
+			}
+		})
+	</script>
+</body>
+</html>
