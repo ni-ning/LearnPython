@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		// let 命令用来声明变量, 只在let命令所在的代码块内有效
+		{
+			let a = 10;
+			var b = 1;
+		}
+		// a	// ReferenceError: a is not defined
+		b	// 1
+		
+		// for 循环计数器, 就很适合使用let命令
+		for (let i=0; i<10; i++) {			
+		}
+		// console.log(i);		// ReferenceError: i is not defined.
+		
+		var a = [];
+		for (var i=0; i<10;i++) {
+			a[i] = function () {
+				console.log(i);
+			}
+		}
+		a[6]();		// 10	
+		var a = [];
+		for (let i=0; i<10;i++) {
+			a[i] = function () {
+				console.log(i);
+			}
+		}
+		a[6]();		// 6
+		
+		for (let i=0; i<3; i++) {
+			let i = 'abc';
+			console.log(i);
+		}
+		
+	</script>
+</html>
