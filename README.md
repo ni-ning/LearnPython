@@ -6,9 +6,9 @@
 
 Email：nining1314@gmail.com
 
-Blog：http://www.cnblogs.com/jonathan1314/
+Blog：https://notes.ni-ning.cn
 
-GitHub: https://github.com/Jonathan1314/
+GitHub: https://github.com/ni-ning
 
 ### 项目说明
 
