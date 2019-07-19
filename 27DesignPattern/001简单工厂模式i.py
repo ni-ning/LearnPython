@@ -50,8 +50,8 @@ class PaymentFactory(object):
 
 
 pf = PaymentFactory()
-pf = pf.create_payment('huabei')
-pf.pay(1000)
+p = pf.create_payment('huabei')
+p.pay(1000)
 
 '''
 优点：
